@@ -451,4 +451,12 @@
 
 }
 
+@media (max-width: 768px) {
+  section.fiesta .item-fiesta {
+    padding: 0 15px;
+  }
 
+  section.fiesta .content-item-fiesta {
+    width: 100% !important;
+  }
+}
