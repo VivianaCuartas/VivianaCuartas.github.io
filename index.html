@@ -2,14 +2,9 @@
 <html lang="es-CO">
 
 <head>
-
-  <!-- Configuración básica -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Boda de Viviana y David</title>
-
-  <!-- Color navegador móvil -->
   <meta name="theme-color" content="#C6D7CF">
 
   <!-- Google Fonts -->
@@ -23,337 +18,228 @@
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/addEvent.css">
-
-  <!-- Tus estilos (SIEMPRE al final) -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 
-  <!-- Favicon simple -->
   <link rel="icon" href="img/favicon.ico">
-
 </head>
 
 <body>
-    <!-- Loader -->
-    <!-- START PRELOADER AREA-->
-<!-- <div class="preloader-area">
 
-  <div class="d-flex justify-content-center align-items-center h-100">
-    <div class="loader"></div>
-  </div>
+  <!-- Portada -->
+  <section class="portada">
 
-</div> -->
-<!-- END PRELOADER AREA -->
-    
-      <!-- Modal musica fondo -->
-      <div id="modalMusica" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
+    <div class="portada-flor-izq-sup"></div>
+    <div class="portada-flor-der-inf"></div>
+    <div class="portada-flor-izq-inf"></div>
 
-      <div class="modal-body text-center">
-        <p>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="content-portada text-center">
 
-          Bienvenidos a la invitación de
-          Viviana
-          y
-          David        </p>
-
-        <span>La música de fondo es parte de la experiencia</span>
-
-        <br>
-        <a class="boton" id="play-music-modal" href="">Ingresar con música</a>
-        <a class="boton" data-dismiss="modal" aria-label="Close" id="" href="">Ingresar sin música</a>
-      </div>
-
-    </div>
-  </div>
-</div>
-    
-    <!-- Portada -->
-    <section class="portada">
-
-  <div class="portada-flor-izq-sup"></div>
-
-  <div class="portada-flor-der-inf"></div>
-
-  <div class="portada-flor-izq-inf"></div>
-
-  <div class="container">
-    <div class="row d-flex justify-content-center align-items-center">
-
-      <div class="content-portada text-center">
-
-        <!-- Idiomas -->
-        
-        <div class="box-nombres-fecha-portada">
-          <span class="fecha">
-            26.07.2026          </span>
-          <h1>
-            Viviana            <br class="d-md-none">
-            <span>&</span>
-            <br class="d-md-none">
-            David          </h1>
-          <div class="line"></div>
-        </div>
-
-        <div class="box-frase-portada">
-          <p>
-            <img src="./IMG/iconos/comilla-apertura.svg" alt=""> <br>
-
-            El amor puede cruzar oceanos, <br> y convertir la distancia en destino. <br>
-
-            <img src="img/iconos/comilla-cierre.svg" alt="">
-          </p>
-        </div>
-
-        <div class="d-flex justify-content-center align-items-center">
-          <div class="flecha-continuar"></div>
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-  </div>
-
-</section>
-    <!-- Cuenta Regresiva -->
-    
-<section class="cuenta-regresiva">
-  <div class="container">
-    <div class="row d-flex justify-content-center align-items-center">
-
-      <div class="box-aros d-flex justify-content-center align-items-center">
-        <div class="box-circulo text-center">
-
-          <span class="falta">Falta</span>
-
-          <div id="reloj" class="reloj">
-
-            <div id="dias" class="reloj-col">
-              <span class="number"></span>
-              <span class="time">días</span>
-            </div>
-
-            <div id="horas" class="reloj-col">
-              <span class="number"></span>
-              <span class="time">hs</span>
-            </div>
-
-            <div id="minutos" class="reloj-col">
-              <span class="number"></span>
-              <span class="time">min</span>
-            </div>
-
-            <div id="segundos" class="reloj-col no-border">
-              <span class="number"></span>
-              <span class="time">seg</span>
-            </div>
-
-            <div class="clearfix"></div>
-
+          <div class="box-nombres-fecha-portada">
+            <span class="fecha">26.07.2026</span>
+            <h1>
+              Viviana
+              <br class="d-md-none">
+              <span>&</span>
+              <br class="d-md-none">
+              David
+            </h1>
+            <div class="line"></div>
           </div>
 
+          <div class="box-frase-portada">
+            <p>
+              <img src="img/iconos/comilla-apertura.svg" alt=""><br>
+              El amor puede cruzar oceanos, <br> y convertir la distancia en destino.<br>
+              <img src="img/iconos/comilla-cierre.svg" alt="">
+            </p>
+          </div>
 
           <div class="d-flex justify-content-center align-items-center">
-
-            <!-- Corazon -->
-            <div class="corazon-falta"></div>
-
+            <div class="flecha-continuar"></div>
           </div>
 
         </div>
       </div>
-
     </div>
-  </div>
-</section>
-    <!-- Grupo de invitados (opcional por versión y slug_grupo) -->
 
-<section class="seccion-principal bloque-grupo-invitados">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-12 col-md-10">
+  </section>
 
-        <div class="card-grupo-invitados">
-          <div class="card-content">
+  <!-- Cuenta Regresiva -->
+  <section class="cuenta-regresiva">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="box-aros d-flex justify-content-center align-items-center">
+          <div class="box-circulo text-center">
 
-            <!-- Cantidad de invitados + acompañantes -->
-            <div class="pases-total">2</div>
+            <span class="falta">Falta</span>
 
-            <!-- Titulo -->
-            <h3 class="titulo-grupo">
-              INVITADOS            </h3>
+            <div id="reloj" class="reloj">
+              <div id="dias" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">días</span>
+              </div>
+              <div id="horas" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">hs</span>
+              </div>
+              <div id="minutos" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">min</span>
+              </div>
+              <div id="segundos" class="reloj-col no-border">
+                <span class="number"></span>
+                <span class="time">seg</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
 
-            <!-- Acompañantes -->
-                            <div class="acompanantes-info"> (1 acompañante)</div>
-              
-            <!-- Lista de invitados -->
-                          <ul class="lista-invitados">
-                                  <li class="invitado-item">Valentina Ruiz</li>
-                                  <li class="invitado-item">Agustín Ruiz</li>
-                              </ul>
-            
-            <!-- Mensaje del grupo -->
-                          <p class="mensaje-grupo">Será un día inolvidable y queremos vivirlo con vos.</p>
-            
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="corazon-falta"></div>
+            </div>
+
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grupo de invitados — se muestra solo si hay ?id= en la URL -->
+  <section class="seccion-principal bloque-grupo-invitados" id="seccion-invitados" style="display:none">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="card-grupo-invitados">
+            <div class="card-content">
+              <div class="pases-total" id="pases-total"></div>
+              <h3 class="titulo-grupo" id="nombre-invitado"></h3>
+              <div class="acompanantes-info" id="acompanantes-info"></div>
+              <ul class="lista-invitados" id="lista-invitados"></ul>
+              <p class="mensaje-grupo" id="mensaje-grupo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ceremonia y Recepción -->
+  <section class="ceremonia-fiesta">
+
+    <div class="ceremonia-fiesta-flor-der"></div>
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Izquierda: Ceremonia y Recepción -->
+        <div class="col-md-6 col-ceremonia text-center">
+
+          <div class="anim-anillos"></div>
+          <br>
+          <h3>Ceremonia y Recepción</h3>
+
+          <div class="info-col">
+
+            <div class="info-box">
+              <h6>Día</h6>
+              <p>Domingo 26 de Julio — 09:30 am</p>
+              <a href="#" class="boton addeventatc">
+                <span class="nameBtn">Agendar</span>
+                <span class="start">2026-07-26 10:00:00</span>
+                <span class="end">2026-07-26 23:00:00</span>
+                <span class="timezone">America/Bogota</span>
+                <span class="title">Boda de Viviana y David</span>
+              </a>
+            </div>
+
+            <div class="info-box">
+              <h6>Lugar</h6>
+              <p>Cariva Eventos - Santa Elena</p>
+              <a href="#" data-evento="Ceremonia" class="boton confirmar-asistencia">Confirmar asistencia</a>
+            </div>
+
+            <div class="info-box">
+              <h6>Dirección</h6>
+              <p>Calle 51A / Vía Barro Blanco, Santa Elena, Medellín</p>
+              <a href="#" data-evento="Ceremonia" class="boton modal-como-llegar">¿Cómo llegar?</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Derecha: Dress Code -->
+        <div class="col-md-6 col-fiesta text-center">
+
+          <div class="anim-vestuario"></div>
+          <br>
+          <h3>Código de vestimenta</h3>
+
+          <div class="info-col">
+            <div class="info-box">
+              <p>Semi-formal.</p>
+              <br>
+              <p>El blanco/beige será exclusivo de la novia y el verde oscuro del novio, por lo que se recomienda evitar estos colores.</p>
+              <a href="#" class="boton modal-vestuario">Ver referencias</a>
+            </div>
+          </div>
+
         </div>
 
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Galería -->
+  <section class="galeria">
 
-<!-- Ceremonia y Recepción -->
-<section class="ceremonia-fiesta">
-
-  <div class="ceremonia-fiesta-flor-der"></div>
-
-  <div class="container">
-    <div class="row">
-
-      <!-- Izquierda: Ceremonia y Recepción -->
-      <div class="col-md-6 col-ceremonia text-center">
-
-        <div class="anim-anillos"></div>
-
-        <br>
-
-        <h3>Ceremonia y Recepción</h3>
-
-        <div class="info-col">
-
-          <div class="info-box">
-            <h6>Día</h6>
-            <p>Domingo 26 de Julio — 09:30 am</p>
-            <a href="#" class="boton addeventatc">
-              <span class="nameBtn">Agendar</span>
-              <span class="start">2026-07-26 10:00:00</span>
-              <span class="end">2026-07-26 23:00:00</span>
-              <span class="timezone">America/Bogota</span>
-              <span class="title">Boda de Viviana y David</span>
-            </a>
-          </div>
-
-          <div class="info-box">
-            <h6>Lugar</h6>
-            <p>Cariva Eventos - Santa Elena</p>
-            <a href="#" data-evento="Ceremonia" class="boton confirmar-asistencia">Confirmar asistencia</a>
-          </div>
-
-          <div class="info-box">
-            <h6>Dirección</h6>
-            <p>Calle 51A / Vía Barro Blanco, Santa Elena, Medellín</p>
-            <a href="#" data-evento="Ceremonia" class="boton modal-como-llegar">¿Cómo llegar?</a>
-          </div>
-
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <div class="content-galeria">
+          <h2 class="title">Nuestra historia</h2>
+          <div class="anim-galeria"></div>
         </div>
       </div>
-
-      <!-- Derecha: Dress Code -->
-      <div class="col-md-6 col-fiesta text-center">
-
-        <div class="anim-vestuario"></div>
-
-        <br>
-
-        <h3>Código de vestimenta</h3>
-
-        <div class="info-col">
-
-          <div class="info-box">
-       
-            <p>Semi-formal.</p>
-            <br>
-            <p>El blanco/beige será exclusivo de la novia y el verde oscuro del novio, por lo que se recomienda evitar estos colores.</p>
-            <a href="#" class="boton modal-vestuario">Ver referencias</a>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-    <!-- Galeria-->
-    <section class="galeria">
-
-
-  <div class="container">
-
-
-    <div class="row text-center d-flex justify-content-center align-items-center">
-
-      <div class="content-galeria">
-
-        <h2 class="title">Nuestra historia</h2>
-      
-
-        <div class="anim-galeria"></div>
-
-      </div>
-
     </div>
 
-  </div>
+    <div class="content-fotos">
+      <div class="shadow-left"></div>
+      <div class="shadow-right"></div>
 
-
-  <div class="content-fotos">
-
-    <div class="shadow-left"></div>
-    <div class="shadow-right"></div>
-
-    <div class="carrusel">
-
+      <div class="carrusel">
         <div>
           <div class="polaroid">
-            <a href="img/1.jpg" data-fancybox="galeria">
-              <img src="img/1.jpg" alt="">
-            </a>
-             <p class="polaroid-caption">Nuestra primera cita</p>
+            <a href="img/1.jpg" data-fancybox="galeria"><img src="img/1.jpg" alt=""></a>
+            <p class="polaroid-caption">Nuestra primera cita</p>
           </div>
         </div>
-
         <div>
           <div class="polaroid">
-            <a href="img/2.jpg" data-fancybox="galeria">
-              <img src="img/2.jpg" alt="">
-            </a>
-             <p class="polaroid-caption">Nuestra primera cita</p>
+            <a href="img/2.jpg" data-fancybox="galeria"><img src="img/2.jpg" alt=""></a>
+            <p class="polaroid-caption">Nuestra primera cita</p>
           </div>
         </div>
-
         <div>
           <div class="polaroid">
-            <a href="img/4.jpg" data-fancybox="galeria">
-              <img src="img/4.jpg" alt="">
-            </a>
-             <p class="polaroid-caption">Nuestra primera cita</p>
+            <a href="img/4.jpg" data-fancybox="galeria"><img src="img/4.jpg" alt=""></a>
+            <p class="polaroid-caption">Nuestra primera cita</p>
           </div>
         </div>
-
         <div>
           <div class="polaroid">
-            <a href="img/5.jpg" data-fancybox="galeria">
-              <img src="img/5.jpg" alt="">
-            </a>
-             <p class="polaroid-caption">Nuestra primera cita</p>
+            <a href="img/5.jpg" data-fancybox="galeria"><img src="img/5.jpg" alt=""></a>
+            <p class="polaroid-caption">Nuestra primera cita</p>
           </div>
         </div>
+      </div>
 
     </div>
 
-  </div>
+  </section>
 
-
-
-
-<<!-- Fiesta-->
+  <!-- Nuestra Canción -->
+<!-- Nuestra Canción -->
 <section class="fiesta">
 
   <div class="container">
@@ -361,10 +247,11 @@
 
       <div class="col-md-12">
         <h2 class="title">Nuestra Canción</h2>
-        <p class="subtitle">Esta canción abrirá nuestra ceremonia. ¡Nos encantaría que nos acompañes cantándola!</p>
+        <p class="subtitle">
+          Esta canción abrirá nuestra ceremonia. ¡Nos encantaría que nos acompañes cantándola!
+        </p>
       </div>
 
-      <!-- Canción de la ceremonia -->
       <div class="col-md-6 item-fiesta">
 
         <img class="hojas-musica" src="img/iconos/img_hojasFiesta.svg" alt="">
@@ -378,24 +265,13 @@
           <p style="font-family: var(--fuente-1); font-size: 26px; color: var(--color-1); margin-bottom: 5px;">
             Cristo, Sé Magnificado
           </p>
+
           <p style="font-size: 14px; color: var(--color-2); margin-bottom: 15px;">
             TWICE MÚSICA
           </p>
 
-          <div style="
-            border-left: 3px solid var(--color-2);
-            padding: 12px 18px;
-            margin: 10px 0 20px;
-            text-align: left;
-          ">
-            <p style="
-              font-family: var(--fuente-1);
-              font-size: 20px;
-              color: var(--color-1);
-              line-height: 2;
-              margin: 0;
-              font-style: italic;
-            ">
+          <div style="border-left: 3px solid var(--color-2); padding: 12px 18px; margin: 10px 0 20px; text-align: left;">
+            <p style="font-family: var(--fuente-1); font-size: 20px; color: var(--color-1); line-height: 2; margin: 0; font-style: italic;">
               Desde el principio de la creación<br>
               Se levantan voces a un clamor<br>
               Desde oeste a este y norte a sur<br>
@@ -403,21 +279,24 @@
             </p>
           </div>
 
-<div style="
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  width: 100%;
-  margin-top: 10px;
-">
-  <a href="#" class="boton" data-toggle="modal" data-target="#modalCancion">
-    Escuchar canción
-  </a>
-  <a href="#" class="boton" data-toggle="modal" data-target="#modalLetra">
-    Ver letra completa
-  </a>
-</div>
+          <!-- 🎧 AUDIO MP3 -->
+          <audio id="audio-cancion" preload="auto">
+            <source src="/audio/cancion.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+          </audio>
+
+          <!-- BOTONES -->
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; width: 100%; margin-top: 10px;">
+            
+            <a href="#" class="boton" id="btn-cancion" onclick="toggleCancion(event)">
+              ▶ Escuchar canción
+            </a>
+
+            <a href="#" class="boton" data-toggle="modal" data-target="#modalLetra">
+              Ver letra completa
+            </a>
+
+          </div>
 
         </div>
       </div>
@@ -426,1033 +305,438 @@
   </div>
 </section>
 
+  <!-- Regalos -->
+  <section class="regalos">
 
+    <div class="regalos-flor-der"></div>
 
-    </div>
-  </div>
-</section>
-    <!-- Regalos-->
-    <section class="regalos">
-
-
-  <div class="regalos-flor-der"></div>
-
-  <div class="container">
-    <div class="row text-center d-flex justify-content-center align-items-center">
-
-      <h2 class="title">Regalos</h2>
-      <p class="subtitle">Lo más valioso es tu compañía, pero si deseas tener un gesto especial, la lluvia de sobres será bienvenida 💌.</p>
-
-      <div class="w-100">
-
-        <div class="anim-regalos"></div>
-
-      </div>
-
-    </div>
-  </div>
-</section>
-    <!-- Instagram-->
-    <section class="instagram">
-
-
-  <div class="container">
-    <div class="row text-center d-flex justify-content-center align-items-center">
-
-      <h2 class="title">Compartimos este día junto a vos</h2>
-      <p class="subtitle">Compartí tus fotos y videos de ese hermoso día</p>
-
-      <div class="w-100">
-
-        <div class="anim-instagram"></div>
-
-      </div>
-
-      <div class="w-100">
-
-        <a target="_blank" href="https://www.instagram.com/" class="hashtag">#vivi&David</a>
-
-      </div>
-
-      <br>
-
-      <a target="_blank" href="https://www.instagram.com/" class="boton">Ver en Instagram</a>
-
-    </div>
-  </div>
-</section>
-    <!-- Footer-->
-    <section class="footer">
-  <div class="container">
-
-    <div class="row">
-
-
-
-      <div class="col-md-6 col-nombres-footer d-flex justify-content-end align-items-center">
-
-        <h4>
-          Vivi          <span>&</span>
-          David        </h4>
-
-      </div>
-
-
-      <div class="col-md-6 col-acciones-footer d-flex justify-content-center justify-content-md-start align-items-center">
-
-        <ul>
-
-          <li>
-            <a href="#" data-evento="Ceremonia" class="confirmar-asistencia">Confirmar asistencia</a>
-          </li>
-
-          <li>
-            <div title="" class="addeventatc">
-
-              <span class="nameBtn">Agendar en calendario</span>
-
-              <span class="start">2026-04-28 23:35:18</span>
-              <span class="end">2026-04-28 23:35:18</span>
-              <span class="timezone">America/Bogota</span>
-              <span class="title">Boda de Viviana y David</span>
-
-            </div>
-          </li>
-          </li>
-
-        </ul>
-
-      </div>
-
-
-
-    </div>
-
-  </div>
-</section>
-    <!-- Firma-->
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
-        <p>
-          Desarrollado con <span class="heart">&#129505;</span> por
-          <a href="#" target="_blank">Viviana Cuartas</a>
-        </p>
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <h2 class="title">Regalos</h2>
+        <p class="subtitle">Lo más valioso es tu compañía, pero si deseas tener un gesto especial, la lluvia de sobres será bienvenida 💌.</p>
+        <div class="w-100">
+          <div class="anim-regalos"></div>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
 
+  </section>
 
-<!-- Musica -->
-<div id="controlador-musica">
-  <div id="play-pause-music" data-estado-music="pause" class="music-anim-icon"></div>
-</div>
+  <!-- Instagram -->
+  <section class="instagram">
 
-<div id="player-musica-fondo"></div>
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <h2 class="title">Compartimos este día junto a vos</h2>
+        <p class="subtitle">Compartí tus fotos y videos de ese hermoso día</p>
+        <div class="w-100">
+          <div class="anim-instagram"></div>
+        </div>
+        <div class="w-100">
+          <a target="_blank" href="https://www.instagram.com/" class="hashtag">#vivi&David</a>
+        </div>
+        <br>
+        <a target="_blank" href="https://www.instagram.com/" class="boton">Ver en Instagram</a>
+      </div>
+    </div>
 
+  </section>
 
-    <!-- Modal asistencia-->
-    <div id="modalAsistencia" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
+  <!-- Footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
 
-    <div class="modal-content">
-
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        
-        <div class="white-circle-icon">
-          <img class="" src="./IMG/iconos/img_circuloCeremonia.svg" alt="">
+        <div class="col-md-6 col-nombres-footer d-flex justify-content-end align-items-center">
+          <h4>Vivi <span>&</span> David</h4>
         </div>
 
-      </div>
-
-      <div class="modal-header">
-        <h5 class="modal-title"></h5>
-      </div>
-
-      <div class="modal-body">
-
-
-        <div class="formulario-content">
-
-          <form id="formAsistencia" action="">
-
-
-            <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
-              <div class="form-check">
-                <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="1" value="Si" checked>
-                <label class="form-check-label custom-control-label" for="1">
-                  Si! Confirmo                </label>
+        <div class="col-md-6 col-acciones-footer d-flex justify-content-center justify-content-md-start align-items-center">
+          <ul>
+            <li>
+              <a href="#" data-evento="Ceremonia" class="confirmar-asistencia">Confirmar asistencia</a>
+            </li>
+            <li>
+              <div title="" class="addeventatc">
+                <span class="nameBtn">Agendar en calendario</span>
+                <span class="start">2026-07-26 10:00:00</span>
+                <span class="end">2026-07-26 23:00:00</span>
+                <span class="timezone">America/Bogota</span>
+                <span class="title">Boda de Viviana y David</span>
               </div>
-              <div class="form-check">
-                <input class="custom-control-input" type="radio" name="asistencia" id="2" value="No">
-                <label class="custom-control-label" for="2">
-                  No puedo :(                </label>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <input type="text" class="form-control" id="nombreAsistente" name='nombre' placeholder="Ingrese su nombre completo">
-            </div>
-
-
-            <div class="form-group">
-              <textarea id="comentariosAsistente" class="form-control" name="comentarios" id="" rows="2" placeholder="Ingrese algun dato importante, Ej: Soy vegetariano"></textarea>
-            </div>
-
-            <input id="eventoAsistencia" type="hidden" name="evento" value="">
-            <input type="hidden" name="invitacion" value="">
-            <input type="hidden" name="token" value="">
-            <input type="hidden" name="lang" value="es">
-            <input type="hidden" name="country" value="co">
-
-          </form>
-
+            </li>
+          </ul>
         </div>
 
-        <div class="msj-content d-flex flex-column justify-content-center"></div>
-
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" id="sendAsistencia" class="boton">Enviar</button>
       </div>
     </div>
+  </section>
 
-
-  </div>
-</div>
-<!-- Modal canción -->
-<div id="modalCancion" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content" style="text-align:center; border:none; padding-bottom:20px;">
-
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="white-circle-icon">
-          <img src="img/iconos/img_circuloCanciones.svg" alt="">
-        </div>
-      </div>
-
-      <div class="modal-header">
-        <h5 class="modal-title" style="width:100%;">Cristo, Sé Magnificado</h5>
-      </div>
-
-      <div class="modal-body">
-        <p style="color: var(--color-2); font-size:14px; margin-bottom:15px;">TWICE MÚSICA</p>
-
-        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px;">
-          <iframe
-            id="iframeCancion"
-            src="https://www.youtube.com/embed/Sv_J3gkJBko"
-            style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-          </iframe>
-        </div>
-
-        <p style="margin-top:20px; font-size:14px; color:var(--color-2); font-style:italic;">
-          "Esta canción abrirá nuestra ceremonia. ¡Gracias por cantarla con nosotros!"
-        </p>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal letra completa -->
-<div id="modalLetra" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content" style="text-align:center; border:none; padding-bottom:20px;">
-
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="white-circle-icon">
-          <img src="img/iconos/tips.svg" alt="">
-        </div>
-      </div>
-
-      <div class="modal-header">
-        <h5 class="modal-title" style="width:100%;">Cristo, Sé Magnificado</h5>
-      </div>
-
-      <div class="modal-body" style="text-align:left; max-height:60vh; overflow-y:auto;">
-        <p style="color:var(--color-2); font-size:13px; text-align:center; margin-bottom:20px;">TWICE MÚSICA</p>
-
-        <div style="
-          font-family: var(--fuente-1);
-          font-size: 20px;
-          color: var(--color-1);
-          line-height: 2;
-          font-style: italic;
-          padding: 0 10px;
-        ">
+  <!-- Firma -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
           <p>
-            Desde el principio de la creación<br>
-            Se levantan voces a un clamor<br>
-            Desde oeste a este y norte a sur<br>
-            Magnificate Señor<br>
-            <br>
-            <!-- Pega aquí el resto de la letra -->
+            Desarrollado con <span class="heart">&#129505;</span> por
+            <a href="#" target="_blank">Viviana Cuartas</a>
           </p>
         </div>
-
       </div>
-
     </div>
+  </footer>
+
+  <!-- Controlador música de fondo -->
+  <div id="controlador-musica">
+    <div id="play-pause-music" data-estado-music="pause" class="music-anim-icon"></div>
   </div>
-</div>
-    <!-- Modal vestuario-->
-    <div id="modalVestuario" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
+  <div id="player-musica-fondo"></div>
 
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
+  <!-- ==================== MODALES ==================== -->
 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <!-- Modal asistencia -->
+  <div id="modalAsistencia" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
 
-        <div class="white-circle-icon">
-          <img class="" src="img/iconos/vestuario.svg" alt="">
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img class="" src="img/iconos/img_circuloCeremonia.svg" alt="">
+          </div>
         </div>
 
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+        </div>
 
-      </div>
+        <div class="modal-body">
+          <div class="formulario-content">
+            <form id="formAsistencia" action="">
 
+              <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
+                <div class="form-check">
+                  <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="1" value="Si" checked>
+                  <label class="form-check-label custom-control-label" for="1">Si! Confirmo</label>
+                </div>
+                <div class="form-check">
+                  <input class="custom-control-input" type="radio" name="asistencia" id="2" value="No">
+                  <label class="custom-control-label" for="2">No puedo :(</label>
+                </div>
+              </div>
 
+              <div class="form-group">
+                <input type="text" class="form-control" id="nombreAsistente" name="nombre" placeholder="Ingrese su nombre completo">
+              </div>
 
-      <div class="modal-header">
-        <h5 class="modal-title">Semi-formal</h5>
-      </div>
+              <div class="form-group">
+                <textarea id="comentariosAsistente" class="form-control" name="comentarios" rows="2" placeholder="Ingrese algún dato importante, Ej: Soy vegetariano"></textarea>
+              </div>
 
-      <div class="modal-body">
+              <input id="eventoAsistencia" type="hidden" name="evento" value="">
+              <input type="hidden" name="lang" value="es">
+              <input type="hidden" name="country" value="co">
 
-        <p><div class="modal-body">
+            </form>
+          </div>
+          <div class="msj-content d-flex flex-column justify-content-center"></div>
+        </div>
 
-  <!-- Referencias visuales -->
-    <!-- Imagen con efecto -->
-  <div style="
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 10px 0 20px;
-  "
-  onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 15px 35px rgba(0,0,0,0.20)'"
-  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 25px rgba(0,0,0,0.15)'">
-   
-    <img src="img/dresscode-1.png" style="width:100%;border-radius:8px;" alt="Referencia 1">
-  </div>
-
-  
-
-  <p style="margin-top:15px; font-size:14px; color:#0c231e;">
-    Recomendación: Si vas a usar tacones, que sean de base ancha o plataforma para mayor comodidad, ya que el evento es al aire libre y el terreno es de césped.
-  </p>
-</div></p>
-
-      </div>
-
-
-      <div class="modal-footer"></div>
-
-
-    </div>
-  </div>
-</div>
-    <!-- Modal tips-->
-    <div id="modalTips" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-
-        <div class="white-circle-icon">
-          <img class="" src="img/iconos/tips.svg" alt="">
+        <div class="modal-footer">
+          <button type="button" id="sendAsistencia" class="boton">Enviar</button>
         </div>
 
       </div>
-
-
-
-      <div class="modal-header">
-
-        <h5 class="modal-title">Tips y Notas</h5>
-
-      </div>
-
-      <div class="modal-body">
-
-        <p>Contenido Tips y Notas</p>
-
-      </div>
-
-
-      <div class="modal-footer"></div>
-
-
     </div>
   </div>
-</div>
-    <!-- Modal regalos-->
-    <div id="modalRegalos" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
 
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
+  <!-- Modal letra completa -->
+  <div id="modalLetra" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content" style="text-align:center; border:none; padding-bottom:20px;">
 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img src="img/iconos/tips.svg" alt="">
+          </div>
+        </div>
 
-        <div class="white-circle-icon">
-          <img class="" src="img/iconos/img_circuloRegalo.svg" alt="">
+        <div class="modal-header">
+          <h5 class="modal-title" style="width:100%;">Cristo, Sé Magnificado</h5>
+        </div>
+
+        <div class="modal-body" style="text-align:left; max-height:60vh; overflow-y:auto;">
+          <p style="color:var(--color-2); font-size:13px; text-align:center; margin-bottom:20px;">TWICE MÚSICA</p>
+
+          <div style="font-family: var(--fuente-1); font-size: 20px; color: var(--color-1); line-height: 2; font-style: italic; padding: 0 10px;">
+            <p>
+              Desde el principio de la creación<br>
+              Se levantan voces a un clamor<br>
+              Desde oeste a este y norte a sur<br>
+              Magnificate Señor<br>
+              <br>
+              <!-- Pega aquí el resto de la letra -->
+            </p>
+          </div>
+
         </div>
 
       </div>
-
-
-
-      <div class="modal-header">
-
-        <h5 class="modal-title">Regalos</h5>
-
-      </div>
-
-      <div class="modal-body">
-        Contenido modal regalos      </div>
-
-      <div class="modal-footer">
-      </div>
-
-
     </div>
   </div>
-</div>
-    <!-- Modal mapa-->
-    <div id="modalMapa" class="modal fade" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
 
-      <div class="img-top-modal d-flex justify-content-center align-items-start">
+  <!-- Modal vestuario -->
+  <div id="modalVestuario" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-
-      </div>
-
-
-      <div class="modal-header">
-
-        <h5 class="modal-title"></h5>
-
-      </div>
-
-      <div class="modal-body">
-        <!-- Loader mientras carga el mapa -->
-        <div id="mapLoader" class="map-loader">
-          <div class="map-spinner"></div>
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img class="" src="img/iconos/vestuario.svg" alt="">
+          </div>
         </div>
-        <iframe id="googleMapIframe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="modal-header">
+          <h5 class="modal-title">Semi-formal</h5>
+        </div>
+
+        <div class="modal-body">
+
+          <div style="border-radius: 12px; overflow: hidden; box-shadow: 0px 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease; margin: 10px 0 20px;"
+            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 15px 35px rgba(0,0,0,0.20)'"
+            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 25px rgba(0,0,0,0.15)'">
+            <img src="img/dresscode-1.png" style="width:100%; display:block;" alt="Dress Code">
+          </div>
+
+          <div style="background-color: #f5f0e8; border-left: 3px solid #81948B; border-radius: 0 8px 8px 0; padding: 12px 15px; margin-top: 10px;">
+            <p style="margin:0; font-size:14px; color:#4A6360; line-height:1.6;">
+              👠 <strong>Tip:</strong> Si vas a usar tacones, que sean de base ancha o plataforma para mayor comodidad, ya que el evento es al aire libre y el terreno es de césped.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="modal-footer"></div>
+
       </div>
-
-      <div class="modal-footer">
-        <a class="boton ampliar-mapa" target="_blank" href="#">Ampliar mapa</a>
-      </div>
-
-
     </div>
   </div>
-</div>
-  <!-- Scripts -->
-  <!-- Variables para JS -->
-<script>
-  var _pathProducto = ""; /* Ruta base local — vacía porque el HTML está en la raíz del proyecto */
 
-  // Idioma
-  var langJs = "es"
+  <!-- Modal mapa -->
+  <div id="modalMapa" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
 
-  // Idioma js en MODELO e INVITACION
-  var langJsVariante = "es-CO";
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
 
-  // Cuenta regresiva
-  var fechaCuentaRegresiva = "07/26/2026 10:00:00";
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+        </div>
 
-  // Mapas
-  var latitudCeremonia = 6.23045627217443;
-  var longitudCeremonia = -75.48345060496771;
+        <div class="modal-body">
+          <div id="mapLoader" class="map-loader">
+            <div class="map-spinner"></div>
+          </div>
+          <iframe id="googleMapIframe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-  // Links Mapas
-  var linkMapsCeremonia = "https://maps.app.goo.gl/xxMTXdKuvx2eXvQV7";
-</script>
+        <div class="modal-footer">
+          <a class="boton ampliar-mapa" target="_blank" href="#">Ampliar mapa</a>
+        </div>
 
+      </div>
+    </div>
+  </div>
 
-<!-- Idioma por defecto js -->
-<script>
-  var langDefault = 'es-CO';
-</script>
+  <!-- ==================== SCRIPTS ==================== -->
 
-<!-- Consulto tipo de dispositivo -->
-<script>
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    var device = 'mobile';
-  } else {
-    var device = 'desktop';
-  }
-</script>
-
-<!-- Funciones y variables globales -->
-<script>
-  function is_url(str) {
-    regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
-    if (regexp.test(str)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-</script>
-
-<!-- Lottie -->
-<script src="js/lottie_svg.min.js"></script>
-
-<!-- Animacion loader -->
-<script>
-  let svgContainerLoader = document.querySelector('.loader');
-
-  let animLoader = bodymovin.loadAnimation({
-    wrapper: svgContainerLoader,
-    animType: 'svg',
-    loop: true,
-    path: _pathProducto + "img/corazon.json"
-  });
-</script>
-
-<!-- Soporte WEBP -->
-<script>
-  function support_format_webp() {
-    var elem = document.createElement('canvas');
-    if (!!(elem.getContext && elem.getContext('2d'))) {
-      return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
-    } else {
-      return false;
-    }
-  }
-</script>
-
-<!-- Scripts JS locales -->
-<script src="js/es-CO.js"></script>
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/change-lang.js"></script>
-<script src="js/noframework.waypoints.min.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/scripts.js"></script>
-
-
-<!-- Loader -->
-<script>
-  var prealoaderOption = $(window);
-
-  prealoaderOption.on("load", function() {
-
-    var preloader = $('.loader');
-    var preloaderArea = $('.preloader-area');
-
-    preloader.fadeOut(500);
-    preloaderArea.delay(100).fadeOut(500);
-
-    // Detengo animacion loader
-    animLoader.destroy();
-
-    // Animaciones de portada
-    animFlores1.setSpeed(0.6);
-    animFlores1.play();
-    animFlores2.setSpeed(0.6);
-    animFlores2.play();
-
-  });
-</script>
-
-
-    <!-- Modal musica inicio -->
-    <script>
-      // Al cargar abro modal
-      prealoaderOption.on("load", function() {
-        $('#modalMusica').modal({
-          backdrop: 'static'
-        });
-      });
-
-      // Btn play music modal
-      $('body').on('click', '#play-music-modal', function(e) {
-
-        e.preventDefault();
-
-        $('#play-pause-music').attr('data-estado-music', 'play');
-        animMusicAnimIcon.play();
-        player.playVideo();
-
-        $('#modalMusica').modal('hide');
-
-      });
-    </script>
-
-    <!-- Musica de fondo -->
-    <script>
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      var player;
-
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player-musica-fondo', {
-          height: '10',
-          width: '10',
-          playerVars: {
-            playlist: 'EH30RAXnRWs',
-            loop: 1,
-            start: 0
-          },
-          events: {
-            'onReady': onPlayerReady
-          }
-        });
-      }
-
-      function onPlayerReady(event) {
-        event.target.setVolume(80);
-      }
-
-      function pauseVideo() {
-        player.pauseVideo();
-      }
-
-      $('body').on('click', '#play-pause-music', function(e) {
-
-        e.preventDefault();
-
-        var estadoMusic = $(this).attr('data-estado-music');
-
-        if (estadoMusic == 'pause') {
-          $(this).attr('data-estado-music', 'play');
-          animMusicAnimIcon.play();
-          player.playVideo();
-        }
-
-        if (estadoMusic == 'play') {
-          $(this).attr('data-estado-music', 'pause');
-          player.pauseVideo();
-          animMusicAnimIcon.stop();
-        }
-
-      });
-    </script>
-
-
-  <!-- Animaciones de diseño -->
+  <!-- Variables globales -->
   <script>
-    let svgContainerMusicAnimIcon = document.querySelector('.music-anim-icon');
+    var _pathProducto = "";
+    var langJs = "es";
+    var langJsVariante = "es-CO";
+    var langDefault = "es-CO";
 
-    let animMusicAnimIcon = bodymovin.loadAnimation({
-      wrapper: svgContainerMusicAnimIcon,
-      animType: 'svg',
-      autoplay: false,
-      loop: true,
+    // Cuenta regresiva
+    var fechaCuentaRegresiva = "07/26/2026 10:00:00";
+
+    // Mapa
+    var latitudCeremonia  = 6.23045627217443;
+    var longitudCeremonia = -75.48345060496771;
+    var linkMapsCeremonia = "https://maps.app.goo.gl/xxMTXdKuvx2eXvQV7";
+  </script>
+
+  <!-- Tipo de dispositivo -->
+  <script>
+    var device = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
+  </script>
+
+  <!-- Funciones globales -->
+  <script>
+    function is_url(str) {
+      var regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+      return regexp.test(str);
+    }
+
+    function support_format_webp() {
+      var elem = document.createElement('canvas');
+      if (!!(elem.getContext && elem.getContext('2d'))) {
+        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+      }
+      return false;
+    }
+  </script>
+
+  <!-- Lottie -->
+  <script src="js/lottie_svg.min.js"></script>
+
+  <!-- Scripts JS -->
+  <script src="js/es-CO.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/noframework.waypoints.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <!-- Animaciones Lottie -->
+  <script>
+    // Ícono música de fondo
+    var animMusicAnimIcon = bodymovin.loadAnimation({
+      wrapper: document.querySelector('.music-anim-icon'),
+      animType: 'svg', autoplay: false, loop: true,
       path: _pathProducto + "img/music-player-icon.json"
     });
-  </script>
 
+    // Control música de fondo
+$(document).on('click', '#play-pause-music', function(e) {
+  e.preventDefault();
 
-  <!-- Animacion Flores-->
-  <script>
-/*     let svgContainerFlores1 = document.querySelector('.portada-flor-izq-sup');
+  var audio = document.getElementById("audio-cancion");
+  var estadoMusic = $(this).attr('data-estado-music');
 
-    let animFlores1 = bodymovin.loadAnimation({
-      wrapper: svgContainerFlores1,
-      animType: 'svg',
-      autoplay: false,
-      loop: false,
-      path: _pathProducto + "img/json_hojas01.json"
-    }); */
+  if (estadoMusic == 'pause') {
+    $(this).attr('data-estado-music', 'play');
+    animMusicAnimIcon.play();
+    audio.play();
+  } else {
+    $(this).attr('data-estado-music', 'pause');
+    audio.pause();
+    animMusicAnimIcon.stop();
+  }
+});
 
-    var wpFlores1 = new Waypoint({
-      element: document.querySelector('.cuenta-regresiva'),
-      handler: function() {
-        animFlores1.stop();
-        animFlores1.play()
-      }
-    });
+    // Flores portada
+    var animFlores1 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-sup'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas01.json" });
+    var animFlores2 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-der-inf'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas02.json" });
+    var animFlores3 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-inf'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas03.json" });
+    var animFlores4 = bodymovin.loadAnimation({ wrapper: document.querySelector('.ceremonia-fiesta-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
+    var animFlores5 = bodymovin.loadAnimation({ wrapper: document.querySelector('.regalos-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
 
-/*     let svgContainerFlores2 = document.querySelector('.portada-flor-der-inf');
+    // Waypoints flores
+    new Waypoint({ element: document.querySelector('.cuenta-regresiva'), handler: function() { animFlores1.stop(); animFlores1.play(); } });
+    new Waypoint({ element: document.querySelector('.cuenta-regresiva'), handler: function() { animFlores2.stop(); animFlores2.play(); } });
+    new Waypoint({ element: document.querySelector('.falta'), handler: function() { animFlores3.stop(); animFlores3.play(); } });
+    new Waypoint({ element: document.querySelector('.falta'), handler: function() { animFlores4.stop(); animFlores4.play(); } });
+    new Waypoint({ element: document.querySelector('.regalos'), handler: function() { animFlores5.stop(); animFlores5.play(); } });
 
-    let animFlores2 = bodymovin.loadAnimation({
-      wrapper: svgContainerFlores2,
-      animType: 'svg',
-      autoplay: false,
-      loop: false,
-      path: _pathProducto + "img/json_hojas02.json"
-    }) */;
-
-    var wpFlores2 = new Waypoint({
-      element: document.querySelector('.cuenta-regresiva'),
-      handler: function() {
-        animFlores2.stop();
-        animFlores2.play()
-      }
-    });
-
-    let svgContainerFlores3 = document.querySelector('.portada-flor-izq-inf');
-
-    let animFlores3 = bodymovin.loadAnimation({
-      wrapper: svgContainerFlores3,
-      animType: 'svg',
-      autoplay: false,
-      loop: false,
-      path: _pathProducto + "img/json_hojas03.json"
-    });
-
-    var wpFlores3 = new Waypoint({
-      element: document.querySelector('.falta'),
-      handler: function() {
-        animFlores3.stop();
-        animFlores3.play()
-      }
-    });
-
-    let svgContainerFlores4 = document.querySelector('.ceremonia-fiesta-flor-der');
-
-    let animFlores4 = bodymovin.loadAnimation({
-      wrapper: svgContainerFlores4,
-      animType: 'svg',
-      autoplay: false,
-      loop: false,
-      path: _pathProducto + "img/json_hojas04.json"
-    });
-
-    var wpFlores4 = new Waypoint({
-      element: document.querySelector('.falta'),
-      handler: function() {
-        animFlores4.stop();
-        animFlores4.play()
-      }
-    });
-
-    let svgContainerFlores5 = document.querySelector('.regalos-flor-der');
-
-    let animFlores5 = bodymovin.loadAnimation({
-      wrapper: svgContainerFlores5,
-      animType: 'svg',
-      autoplay: false,
-      loop: false,
-      path: _pathProducto + "img/json_hojas04.json"
-    });
-
-    var wpFlores6 = new Waypoint({
-      element: document.querySelector('.regalos'),
-      handler: function() {
-        animFlores5.stop();
-        animFlores5.play()
-      }
-    });
-  </script>
-
-  <!-- Animacion flecha scroll -->
-  <script>
-    let svgContainerFlechaScroll = document.querySelector('.flecha-continuar');
-
-    let animFlechaScroll = bodymovin.loadAnimation({
-      wrapper: svgContainerFlechaScroll,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/down-scroll.json"
-    });
-
+    // Flecha scroll
+    var animFlechaScroll = bodymovin.loadAnimation({ wrapper: document.querySelector('.flecha-continuar'), animType: 'svg', loop: true, path: _pathProducto + "img/down-scroll.json" });
     animFlechaScroll.setSpeed(0.6);
-  </script>
 
-  <!-- Animacion corazon seccion cuenta regresiva-->
-  <script>
-    let svgContainerCorazonFalta = document.querySelector('.corazon-falta');
+    // Corazón cuenta regresiva
+    bodymovin.loadAnimation({ wrapper: document.querySelector('.corazon-falta'), animType: 'svg', loop: true, path: _pathProducto + "img/corazon-falta.json" });
 
-    let animCorazonFalta = bodymovin.loadAnimation({
-      wrapper: svgContainerCorazonFalta,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/corazon-falta.json"
-    });
-  </script>
-
-  <!-- Animacion anillos -->
-  <script>
-    let svgContainerAnillos = document.querySelector('.anim-anillos');
-
-    let animAnillos = bodymovin.loadAnimation({
-      wrapper: svgContainerAnillos,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/img_ceremonia.json"
-    });
-
+    // Anillos
+    var animAnillos = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-anillos'), animType: 'svg', loop: true, path: _pathProducto + "img/img_ceremonia.json" });
     animAnillos.play();
-  </script>
 
-  <!-- Animacion galeria -->
-  <script>
-    let svgContainerGaleria = document.querySelector('.anim-galeria');
-
-    let animGaleria = bodymovin.loadAnimation({
-      wrapper: svgContainerGaleria,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/json_camara.json"
-    });
-
-    animGaleria.play();
-  </script>
-
-  <!-- Animacion Musica -->
-  <script>
-    let svgContainerMusica = document.querySelector('.anim-musica');
-
-    let animMusica = bodymovin.loadAnimation({
-      wrapper: svgContainerMusica,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/img_musica.json"
-    });
-
-    animMusica.play();
-  </script>
-
-  <!-- Animacion Vestuario -->
-  <script>
-    let svgContainerVestuario = document.querySelector('.anim-vestuario');
-
-    let animVestuario = bodymovin.loadAnimation({
-      wrapper: svgContainerVestuario,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/vestuario.json"
-    });
-
+    // Vestuario
+    var animVestuario = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-vestuario'), animType: 'svg', loop: true, path: _pathProducto + "img/vestuario.json" });
     animVestuario.play();
-  </script>
 
-  <!-- Animacion Tips -->
-  <script>
-    let svgContainerTips = document.querySelector('.anim-tips');
+    // Galería
+    var animGaleria = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-galeria'), animType: 'svg', loop: true, path: _pathProducto + "img/json_camara.json" });
+    animGaleria.play();
 
-    let animTips = bodymovin.loadAnimation({
-      wrapper: svgContainerTips,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/tips.json"
-    });
+    // Música
+    var animMusica = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-musica'), animType: 'svg', loop: true, path: _pathProducto + "img/img_musica.json" });
+    animMusica.play();
 
-    animTips.play();
-  </script>
-
-  <!-- Animacion canciones -->
-  <script>
-    let svgContainerFiesta = document.querySelector('.anim-fiesta');
-
-    let animFiesta = bodymovin.loadAnimation({
-      wrapper: svgContainerFiesta,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/img_fiesta.json"
-    });
-
-    animFiesta.play();
-  </script>
-
-  <!-- Animacion regalos -->
-  <script>
-    let svgContainerRegalos = document.querySelector('.anim-regalos');
-
-    let animRegalos = bodymovin.loadAnimation({
-      wrapper: svgContainerRegalos,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/img_regalo.json"
-    });
-
+    // Regalos
+    var animRegalos = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-regalos'), animType: 'svg', loop: true, path: _pathProducto + "img/img_regalo.json" });
     animRegalos.play();
-  </script>
 
-  <!-- Animacion instagram -->
-  <script>
-    let svgContainerInstagram = document.querySelector('.anim-instagram');
-
-    let animInstagram = bodymovin.loadAnimation({
-      wrapper: svgContainerInstagram,
-      animType: 'svg',
-      loop: true,
-      path: _pathProducto + "img/img_instagram.json"
-    });
-
+    // Instagram
+    var animInstagram = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-instagram'), animType: 'svg', loop: true, path: _pathProducto + "img/img_instagram.json" });
     animInstagram.play();
   </script>
 
-  <!-- Opciones carrusel galeria -->
+  <!-- Carrusel galería -->
   <script>
     $('.carrusel').slick({
-      lazyLoad: 'ondemand',
-      autoplay: true,
-      autoplaySpeed: 2000,
-      centerMode: true,
-      dots: true,
-      centerPadding: '20px',
-      slidesToShow: 3,
-      prevArrow: false,
-      nextArrow: false,
-      responsive: [{
-          breakpoint: 768,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
-          }
-        }
+      lazyLoad: 'ondemand', autoplay: true, autoplaySpeed: 2000,
+      centerMode: true, dots: true, centerPadding: '20px',
+      slidesToShow: 3, prevArrow: false, nextArrow: false,
+      responsive: [
+        { breakpoint: 768, settings: { arrows: false, centerMode: true, centerPadding: '40px', slidesToShow: 3 } },
+        { breakpoint: 480, settings: { arrows: false, centerMode: true, centerPadding: '40px', slidesToShow: 1 } }
       ]
     });
   </script>
 
-  <!-- Modal Confirmar asistencia -->
+  <!-- Confirmar asistencia -->
   <script>
     $('body').on('click', 'a.confirmar-asistencia', function(e) {
-
       e.preventDefault();
-
       $("#error-form").remove();
-
-      var evento = $(this).attr('data-evento');
-
-      $('#eventoAsistencia').val(evento);
-
-      if (evento == 'Fiesta') {
-        var titleModalAsistencia = lang_titleModalAsistenciaFiesta;
-        var rutaImgModalAsistencia = _pathProducto + 'img/iconos/img_circuloFiesta.svg';
-      }
-
-      if (evento == 'Ceremonia') {
-        var titleModalAsistencia = lang_titleModalAsistenciaCeremonia;
-        var rutaImgModalAsistencia = _pathProducto + 'img/iconos/img_circuloCeremonia.svg';
-      }
-
-      $('#modalAsistencia .modal-title').text(titleModalAsistencia);
-      $('#modalAsistencia .img-top-modal img').attr('src', rutaImgModalAsistencia);
-
-      $('#modalAsistencia').modal({
-        backdrop: 'static'
-      })
-
+      $('#eventoAsistencia').val('Ceremonia');
+      $('#modalAsistencia .modal-title').text(lang_titleModalAsistenciaCeremonia);
+      $('#modalAsistencia .img-top-modal img').attr('src', _pathProducto + 'img/iconos/img_circuloCeremonia.svg');
+      $('#modalAsistencia').modal({ backdrop: 'static' });
     });
 
     function isOkAsistencia() {
-
       $("#error-form").remove();
-
-      var flag = true;
-      var err = '';
-
-      var asistenteName = $.trim($("#nombreAsistente").val());
-      var asistenteComentarios = $.trim($("#comentariosAsistente").val());
-
-      if (asistenteName == '') {
-        flag = false;
-        err = lang_nombreRequerido;
-      } else {
-        if (asistenteName.length > 100) {
-          flag = false;
-          err = lang_caracteresNombreAsistencia;
-        }
-      }
-
-      if (asistenteComentarios != '') {
-        if (asistenteComentarios.length > 100) {
-          flag = false;
-          err = lang_caracteresComentariosAsistencia;
-        }
-      }
-
-      if (flag === false) {
-        $('#formAsistencia').after('<span id="error-form">' + err + '</span>');
-      }
-
+      var flag = true, err = '';
+      var name = $.trim($("#nombreAsistente").val());
+      var comments = $.trim($("#comentariosAsistente").val());
+      if (name == '') { flag = false; err = lang_nombreRequerido; }
+      else if (name.length > 100) { flag = false; err = lang_caracteresNombreAsistencia; }
+      if (comments != '' && comments.length > 100) { flag = false; err = lang_caracteresComentariosAsistencia; }
+      if (!flag) $('#formAsistencia').after('<span id="error-form">' + err + '</span>');
       return flag;
-
     }
 
     $('body').on('click', '#sendAsistencia', function(e) {
-
       e.preventDefault();
-
       if (isOkAsistencia()) {
-
-        $("#sendAsistencia").text(lang_informandoAsistencia + "...");
-        $("#sendAsistencia").prop("disabled", true);
-
-        var formulario = $("#formAsistencia")[0];
-        var datos = new FormData(formulario);
-
-        fetch(_pathApp + "producto/fetchs/confirmar-asistencia.php", {
-            method: "POST",
-            body: datos
-          })
+        $("#sendAsistencia").text(lang_informandoAsistencia + "...").prop("disabled", true);
+        fetch(_pathApp + "producto/fetchs/confirmar-asistencia.php", { method: "POST", body: new FormData($("#formAsistencia")[0]) })
           .then(res => res.json())
           .then(data => {
-
+            $("#sendAsistencia").text(lang_confirmarAsistencia).prop("disabled", false);
             if (data.error === true) {
-              $("#sendAsistencia").text(lang_confirmarAsistencia);
-              $("#sendAsistencia").prop("disabled", false);
               $('#formAsistencia').after('<span id="error-form">' + data.desc + '</span>');
-            }
-
-            if (data.error === false) {
-              $("#sendAsistencia").text(lang_confirmarAsistencia);
-              $("#sendAsistencia").prop("disabled", false);
+            } else {
               $('#formAsistencia')[0].reset();
               $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').hide();
               $('#modalAsistencia .modal-body').addClass('fix-height');
-              $('#modalAsistencia .msj-content').html(
-                "<h5>" + lang_asistenciaMsjExito_1 + "</h5><p>" + lang_asistenciaMsjExito_2 + "</p>"
-              ).show();
-
+              $('#modalAsistencia .msj-content').html("<h5>" + lang_asistenciaMsjExito_1 + "</h5><p>" + lang_asistenciaMsjExito_2 + "</p>").show();
               setTimeout(function() {
                 $('#modalAsistencia').modal('hide');
                 $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').show();
@@ -1460,268 +744,106 @@
                 $('#modalAsistencia .modal-body').removeClass('fix-height');
               }, 4000);
             }
-
           });
       }
-
     });
   </script>
 
   <!-- Cuenta regresiva -->
   <script>
     var countDownDate = new Date(fechaCuentaRegresiva).getTime();
-
     var x = setInterval(function() {
-
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      $("#dias .number").text(days);
-      $("#horas .number").text(hours);
-      $("#minutos .number").text(minutes);
-      $("#segundos .number").text(seconds);
-
+      var distance = countDownDate - new Date().getTime();
+      $("#dias .number").text(Math.floor(distance / 86400000));
+      $("#horas .number").text(Math.floor((distance % 86400000) / 3600000));
+      $("#minutos .number").text(Math.floor((distance % 3600000) / 60000));
+      $("#segundos .number").text(Math.floor((distance % 60000) / 1000));
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("reloj").innerHTML = '<p class="fin-cuenta">' +
-          lang_textoFinalCuentaRegresiva + '</p>';
+        document.getElementById("reloj").innerHTML = '<p class="fin-cuenta">' + lang_textoFinalCuentaRegresiva + '</p>';
         $('.falta').text('');
       }
     }, 1000);
   </script>
 
-  <!-- Modal sugerir cancion -->
-  <script>
-    $('body').on('click', 'a.sugerir-cancion', function(e) {
-
-      e.preventDefault();
-
-      $("#error-form").remove();
-
-      $('#modalSugerirCancion').modal({
-        backdrop: 'static'
-      })
-
-    });
-
-    function isOkSugerirCancion() {
-
-      $("#error-form").remove();
-
-      var flag = true;
-      var err = '';
-
-      var sugerenciaName = $.trim($("#nombreSugerencia").val());
-      var sugerenciaDescription = $.trim($("#descripcionSugerencia").val());
-      var sugerenciaLink = $.trim($("#linkSugerencia").val());
-
-      if (sugerenciaDescription == '') {
-        flag = false;
-        err = lang_cancionRequerida;
-      } else {
-        if (sugerenciaDescription.length > 50) {
-          flag = false;
-          err = lang_caracteresCancionSugerencia;
-        }
-      }
-
-      if (sugerenciaLink != '') {
-        if (!is_url(sugerenciaLink)) {
-          flag = false;
-          err = lang_linkIncorrecto;
-        }
-        if (sugerenciaLink.length > 250) {
-          flag = false;
-          err = lang_caracteresLinkSugerencia;
-        }
-      }
-
-      if (sugerenciaName == '') {
-        flag = false;
-        err = lang_nombreRequerido;
-      } else {
-        if (sugerenciaName.length > 20) {
-          flag = false;
-          err = lang_caracteresNombreSugerencia;
-        }
-      }
-
-      if (flag === false) {
-        $('#formSugerirCancion').after('<span id="error-form">' + err + '</span>');
-      }
-
-      return flag;
-
-    }
-
-    $('body').on('click', '#sendSugerenciaCancion', function(e) {
-
-      e.preventDefault();
-
-      if (isOkSugerirCancion()) {
-
-        $("#sendSugerenciaCancion").text(lang_enviandoSugerencia + "...");
-        $("#sendSugerenciaCancion").prop("disabled", true);
-
-        var formulario = $("#formSugerirCancion")[0];
-        var datos = new FormData(formulario);
-
-        fetch(_pathApp + "producto/fetchs/sugerir-cancion.php", {
-            method: "POST",
-            body: datos
-          })
-          .then(res => res.json())
-          .then(data => {
-
-            if (data.error === true) {
-              $("#sendSugerenciaCancion").text(lang_sugerirCancion);
-              $("#sendSugerenciaCancion").prop("disabled", false);
-              $('#formSugerirCancion').after('<span id="error-form">' + data.desc + '</span>');
-            }
-
-            if (data.error === false) {
-              $("#sendSugerenciaCancion").text(lang_sugerirCancion);
-              $("#sendSugerenciaCancion").prop("disabled", false);
-              $('#formSugerirCancion')[0].reset();
-              $('#modalSugerirCancion .formulario-content, #modalSugerirCancion .modal-footer, #modalSugerirCancion h5').hide();
-              $('#modalSugerirCancion .modal-body').addClass('fix-height');
-              $('#modalSugerirCancion .msj-content').html(
-                "<h5>" + lang_sugerirCancionMsjExito_1 + "</h5><p>" + lang_sugerirCancionMsjExito_2 + "</p>"
-              ).show();
-
-              setTimeout(function() {
-                $('#modalSugerirCancion').modal('hide');
-                $('#modalSugerirCancion .formulario-content, #modalSugerirCancion .modal-footer, #modalSugerirCancion h5').show();
-                $('#modalSugerirCancion .msj-content').html('').hide();
-                $('#modalSugerirCancion .modal-body').removeClass('fix-height');
-              }, 4000);
-            }
-
-          });
-      }
-
-    });
-  </script>
-
-  <!-- Modal Vestuario -->
+  <!-- Modal vestuario -->
   <script>
     $('body').on('click', 'a.modal-vestuario', function(e) {
       e.preventDefault();
-      $('#modalVestuario').modal({ backdrop: 'static' })
+      $('#modalVestuario').modal({ backdrop: 'static' });
     });
   </script>
 
-  <!-- Modal Tips -->
-  <script>
-    $('body').on('click', 'a.modal-tips', function(e) {
-      e.preventDefault();
-      $('#modalTips').modal({ backdrop: 'static' })
-    });
-  </script>
-
-  <!-- Modal regalos -->
-  <script>
-    $('body').on('click', 'a.modal-regalos', function(e) {
-      e.preventDefault();
-      $('#modalRegalos').modal({ backdrop: 'static' })
-    });
-  </script>
-
-  <!-- Modal como llegar -->
+  <!-- Modal cómo llegar -->
   <script>
     $('body').on('click', 'a.modal-como-llegar', function(e) {
-
       e.preventDefault();
-
-      var evento = $(this).attr('data-evento');
-      var iframeSrc = '';
-      var linkMaps = '';
-      var latitud = 0;
-      var longitud = 0;
-      var linkMapConfigured = '';
-
-      if (evento == 'Fiesta') {
-        var titleModalMapa = lang_titleModalMapaFiesta;
-        latitud = latitudFiesta;
-        longitud = longitudFiesta;
-        linkMapConfigured = linkMapsFiesta;
-      }
-
-      if (evento == 'Ceremonia') {
-        var titleModalMapa = lang_titleModalMapaCeremonia;
-        latitud = latitudCeremonia;
-        longitud = longitudCeremonia;
-        linkMapConfigured = linkMapsCeremonia;
-      }
-
-      var coordenadasValidas = (latitud !== 0 && longitud !== 0 && latitud !== null && longitud !== null);
-
-      if (coordenadasValidas) {
-        iframeSrc = 'https://www.google.com/maps?q=' + latitud + ',' + longitud + '&output=embed';
-        if (linkMapConfigured != '' && linkMapConfigured != null) {
-          linkMaps = linkMapConfigured;
-        } else {
-          linkMaps = 'https://www.google.com/maps/search/?api=1&query=' + latitud + ',' + longitud;
-        }
-      } else {
-        console.warn('No hay coordenadas configuradas para: ' + evento);
-        iframeSrc = 'https://www.google.com/maps?q=0,0&output=embed';
-        linkMaps = linkMapConfigured != '' ? linkMapConfigured : 'https://www.google.com/maps';
-      }
-
-      $('#modalMapa .modal-title').text(titleModalMapa);
+      var iframeSrc = 'https://www.google.com/maps?q=' + latitudCeremonia + ',' + longitudCeremonia + '&output=embed';
+      var linkMaps = linkMapsCeremonia || 'https://www.google.com/maps/search/?api=1&query=' + latitudCeremonia + ',' + longitudCeremonia;
+      $('#modalMapa .modal-title').text(lang_titleModalMapaCeremonia);
       $('#mapLoader').removeClass('hidden');
-      $('#googleMapIframe').css('opacity', '0');
-      $('#googleMapIframe').attr('src', iframeSrc);
-
+      $('#googleMapIframe').css('opacity', '0').attr('src', iframeSrc);
       $('#googleMapIframe').off('load').on('load', function() {
         $('#mapLoader').addClass('hidden');
         $('#googleMapIframe').css('opacity', '1');
       });
-
       $('.ampliar-mapa').attr('href', linkMaps);
-
       $('#modalMapa').modal({ backdrop: 'static' });
-
     });
 
     $('#modalMapa').on('hidden.bs.modal', function() {
       $('#mapLoader').removeClass('hidden');
-      $('#googleMapIframe').css('opacity', '0');
-      $('#googleMapIframe').attr('src', '');
+      $('#googleMapIframe').css('opacity', '0').attr('src', '');
     });
   </script>
 
-  <!-- Instagram parallax -->
+  <!-- Parallax -->
   <script>
-    if ($(window).width() < 768) {
-      if (support_format_webp()) {
-        var imageInstagramParallax = 'img/instagram_mobile.webp';
-      } else {
-        var imageInstagramParallax = 'img/instagram_mobile.jpg';
-      }
-    } else {
-      if (support_format_webp()) {
-        var imageInstagramParallax = 'img/instagram.webp';
-      } else {
-        var imageInstagramParallax = 'img/instagram.jpg';
-      }
-    }
+    var imageInstagramParallax = $(window).width() < 768
+      ? (support_format_webp() ? 'img/instagram_mobile.webp' : 'img/instagram_mobile.jpg')
+      : (support_format_webp() ? 'img/instagram.webp' : 'img/instagram.jpg');
+    $('.instagram').parallax({ imageSrc: _pathProducto + imageInstagramParallax });
 
-    $('.instagram').parallax({
-      imageSrc: _pathProducto + imageInstagramParallax
-    });
+    var imageParallax = (device == 'mobile' || $(window).width() < 768)
+      ? (support_format_webp() ? 'img/portada-mobile.webp' : 'img/portada-mobile.jpg')
+      : (support_format_webp() ? 'img/portada-3.webp' : 'img/portada-3.jpg');
+    $('.portada').parallax({ imageSrc: _pathProducto + imageParallax });
   </script>
 
-  <!-- AddEvent script -->
-  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+  <!-- Invitados dinámicos -->
+  <script>
+    var invitados = {
+      // "nombre-apellido": {
+      //   nombre: "Nombre Apellido",
+      //   pases: 2,
+      //   acompanantes: ["Acompañante 1"],
+      //   mensaje: "Mensaje personalizado."
+      // }
+    };
 
-  <!-- AddEvent Settings -->
+    var idInvitado = new URLSearchParams(window.location.search).get('id');
+    if (idInvitado && invitados[idInvitado]) {
+      var inv = invitados[idInvitado];
+      document.getElementById('pases-total').textContent = inv.pases;
+      document.getElementById('nombre-invitado').textContent = inv.nombre;
+      document.getElementById('mensaje-grupo').textContent = inv.mensaje;
+      if (inv.acompanantes.length > 0) {
+        document.getElementById('acompanantes-info').textContent =
+          '(' + inv.acompanantes.length + ' acompañante' + (inv.acompanantes.length > 1 ? 's' : '') + ')';
+        var lista = document.getElementById('lista-invitados');
+        inv.acompanantes.forEach(function(n) {
+          var li = document.createElement('li');
+          li.className = 'invitado-item';
+          li.textContent = n;
+          lista.appendChild(li);
+        });
+      }
+      document.getElementById('seccion-invitados').style.display = 'block';
+    }
+  </script>
+
+  <!-- AddEvent -->
+  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
   <script type="text/javascript">
     window.addeventasync = function() {
       addeventatc.settings({
@@ -1737,28 +859,22 @@
     };
   </script>
 
-<!-- Portada parallax -->
 <script>
-  if (device == 'mobile' || $(window).width() < 768) {
-    if (support_format_webp()) {
-      var imageParallax = 'img/portada-mobile.webp';
-    } else {
-      var imageParallax = 'img/portada-mobile.jpg';
-    }
-  } else {
-    if (support_format_webp()) {
-      var imageParallax = 'img/portada-3.webp';
-    } else {
-      var imageParallax = 'img/portada-3.jpg';
-    }
-  }
+function toggleCancion(e) {
+  e.preventDefault();
 
-  $('.portada').parallax({
-    imageSrc: _pathProducto + imageParallax
-  });
+  var audio = document.getElementById("audio-cancion");
+  var btn = document.getElementById("btn-cancion");
+
+  if (audio.paused) {
+    audio.play();
+    btn.textContent = "⏸ Pausar canción";
+  } else {
+    audio.pause();
+    btn.textContent = "▶ Escuchar canción";
+  }
+}
 </script>
 
-
 </body>
-
 </html>
