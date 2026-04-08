@@ -28,6 +28,13 @@
     margin-top: 25px;
   }
 
+  @media (max-width: 768px) {
+  section.portada {
+    background: url("../img/portada-mobile.webp") center center no-repeat;
+    background-size: cover;
+  }
+}
+
   section.portada .content-portada h1{
     font-size: 100px;
     line-height: 65px;
@@ -141,6 +148,12 @@
     width: 25%;
     bottom: -25%;
   }
+  @media (max-width: 768px) {
+  section.instagram {
+    background: url("../img/instagram-mobile.webp") center center no-repeat;
+    background-size: cover;
+  }
+}
 
   section.instagram{
     padding-top: 35%;

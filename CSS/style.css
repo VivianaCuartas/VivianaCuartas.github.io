@@ -245,6 +245,9 @@ section.portada{
   background-size: cover;
   color: #fff;
   position: relative;
+  background: url("../img/portada-3.webp") center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 section.portada::before {
@@ -854,8 +857,10 @@ section.regalos .regalos-flor-der{
 section.instagram{
   padding-top: 16%;
   padding-bottom: 16%;
-  /* background: url('../img/portada.jpg') center center; */
   position: relative;
+  background: url("../img/instagram.webp") center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 section.instagram .container{

@@ -863,15 +863,17 @@
 
   <!-- Parallax -->
   <script>
-    var imageInstagramParallax = $(window).width() < 768
-      ? (support_format_webp() ? 'img/instagram_mobile.webp' : 'img/instagram_mobile.jpg')
-      : (support_format_webp() ? 'img/instagram.webp' : 'img/instagram.jpg');
-    $('.instagram').parallax({ imageSrc: _pathProducto + imageInstagramParallax });
+if ($(window).width() >= 768) {
 
-    var imageParallax = (device == 'mobile' || $(window).width() < 768)
-      ? (support_format_webp() ? 'img/portada-mobile.webp' : 'img/portada-mobile.jpg')
-      : (support_format_webp() ? 'img/portada-3.webp' : 'img/portada-3.jpg');
-    $('.portada').parallax({ imageSrc: _pathProducto + imageParallax });
+  $('.portada').parallax({
+    imageSrc: 'img/portada-3.webp'
+  });
+
+  $('.instagram').parallax({
+    imageSrc: 'img/instagram.webp'
+  });
+
+}
   </script>
 
   <!-- Invitados dinámicos -->
