@@ -245,7 +245,7 @@ section.portada{
   background-size: cover;
   color: #fff;
   position: relative;
-  background: url("../img/portada-3.webp") center center no-repeat;
+/*   background: url("../img/portada-3.webp") center center no-repeat; */
   background-size: cover;
   min-height: 100vh;
 }
@@ -858,7 +858,7 @@ section.instagram{
   padding-top: 16%;
   padding-bottom: 16%;
   position: relative;
-  background: url("../img/instagram.webp") center center no-repeat;
+/*   background: url("../img/instagram.webp") center center no-repeat; */
   background-size: cover;
   min-height: 100vh;
 }

@@ -241,7 +241,6 @@
   </section>
 
   <!-- Nuestra Canción -->
-  <!-- Nuestra Canción -->
   <section class="fiesta">
 
     <div class="container">
@@ -348,7 +347,7 @@
 
   </section>
 
-  <!-- Footer -->
+  <!-- Footer --> 
   <section class="footer">
     <div class="container">
       <div class="row">
@@ -687,9 +686,11 @@
     });
 
     // Flores portada
-    var animFlores1 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-sup'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas01.json" });
-    var animFlores2 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-der-inf'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas02.json" });
-    var animFlores3 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-inf'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas03.json" });
+
+    // Flores portada — líneas 690, 691, 692
+var animFlores1 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-sup'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas01.json" });
+var animFlores2 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-der-inf'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas02.json" });
+var animFlores3 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-inf'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas03.json" });
     var animFlores4 = bodymovin.loadAnimation({ wrapper: document.querySelector('.ceremonia-fiesta-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
     var animFlores5 = bodymovin.loadAnimation({ wrapper: document.querySelector('.regalos-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
 
@@ -863,17 +864,50 @@
 
   <!-- Parallax -->
   <script>
-if ($(window).width() >= 768) {
+$(document).ready(function () {
 
-  $('.portada').parallax({
-    imageSrc: 'img/portada-3.webp'
-  });
+  if ($(window).width() >= 768) {
+    // Desktop: tu parallax original
+    $('.portada').parallax({ imageSrc: _pathProducto + 'img/portada-3.webp' });
+    $('.instagram').parallax({ imageSrc: _pathProducto + 'img/instagram.webp' });
 
-  $('.instagram').parallax({
-    imageSrc: 'img/instagram.webp'
-  });
+  } else {
+    // Mobile: parallax manual con translateY
+    var $portada = $('.portada');
+    var $instagram = $('.instagram');
 
-}
+    // Setear imagen de fondo directamente
+    $portada.css({
+      'background-image': 'url(' + _pathProducto + 'img/portada-3.webp)',
+      'background-size': 'cover',
+      'background-position': 'center center',
+      'will-change': 'background-position'
+    });
+
+    $instagram.css({
+      'background-image': 'url(' + _pathProducto + 'img/instagram.webp)',
+      'background-size': 'cover',
+      'background-position': 'center center',
+      'will-change': 'background-position'
+    });
+
+    // Efecto parallax via background-position
+    window.addEventListener('scroll', function () {
+      var scrollY = window.pageYOffset;
+
+      // Portada: se mueve más lento que el scroll (factor 0.3)
+      var portadaOffset = scrollY * 0.3;
+      $portada.css('background-position', 'center ' + portadaOffset + 'px');
+
+      // Instagram: calcular posición relativa al elemento
+      var instagramTop = $instagram.offset().top;
+      var instagramOffset = (scrollY - instagramTop) * 0.3;
+      $instagram.css('background-position', 'center calc(50% + ' + instagramOffset + 'px)');
+
+    }, { passive: true }); // passive:true es importante para no bloquear el scroll en mobile
+  }
+
+});
   </script>
 
   <!-- Invitados dinámicos -->
