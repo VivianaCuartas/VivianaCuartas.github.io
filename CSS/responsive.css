@@ -17,15 +17,15 @@
   }
 
   .title{
-    font-size: 55px;
+    font-size: 40px;
     line-height:40px;
     padding: 0 15px;
   }
 
   .subtitle{
-    font-size: 19px;
+    font-size: 17px;
     padding: 0 15px;
-    margin-top: 25px;
+    margin-top: 80px;
   }
 
   @media (max-width: 768px) {
@@ -53,7 +53,6 @@
     margin-bottom: 15px;
   }
 
-  
 
   section.portada .content-portada span.fecha:before{
     right: -40px;
@@ -309,6 +308,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100px center;
+    background-color: white; 
   }
 
   #modalAsistencia .modal-body{

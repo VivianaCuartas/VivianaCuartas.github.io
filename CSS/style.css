@@ -109,6 +109,7 @@ background:var(--color-1);
   color: var(--color-2);
   font-size: 20px;
   font-weight: 400;
+  margin-top: 50px;
 }
 
 ul{
@@ -674,9 +675,9 @@ section.galeria .content-fotos .polaroid a{
 
 section.galeria .content-fotos .polaroid {
   background-color: #eee;
-  padding: 15px;
-  padding-bottom: 20px;
-  margin: 5px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin: 10px;
   -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.40);
   -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.432);
   box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.40);
@@ -689,8 +690,8 @@ section.galeria .content-fotos .polaroid-caption {
   text-align: center;
   font-family: var(--fuente-1);
   color: var(--color-2);
-  font-size: 18px;
-  margin-top: 12px;
+  font-size: 17px;
+  margin-top: 10px;
   margin-bottom: 0;
   letter-spacing: 0.02em;
 }
