@@ -788,11 +788,18 @@ section.fiesta .item-fiesta h3{
   font-weight: 700; 
 }
 
-section.fiesta .item-fiesta p{
+section.fiesta {
   color: var(--color-2);
   margin-bottom: 0;
   font-family: var(--fuente-2);
   font-weight: 400;
+}
+.cancion-titulo
+{
+  font-family: var(--fuente-1);
+  color: var(--color-7);
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 section.fiesta .item-fiesta a.boton{

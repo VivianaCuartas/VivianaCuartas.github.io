@@ -10,24 +10,28 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@300;400;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- CSS de terceros -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/addEvent.css">
+
+  <!-- CSS del proyecto -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/responsive.css">
 
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="img/favicon.png">
 </head>
 
 <body>
 
-  <!-- Portada -->
+  <!-- =====================================================
+       PORTADA
+       ===================================================== -->
   <section class="portada">
 
     <div class="portada-flor-izq-sup"></div>
@@ -43,7 +47,7 @@
             <h1>
               Viviana
               <br class="d-md-none">
-              <span>&</span>
+              <span>&amp;</span>
               <br class="d-md-none">
               David
             </h1>
@@ -52,9 +56,9 @@
 
           <div class="box-frase-portada">
             <p>
-              <img src="img/iconos/comilla-apertura.svg" alt=""><br>
+              <img src="img/iconos/comilla-apertura.svg" alt="Comilla de apertura"><br>
               El amor puede cruzar oceanos, <br> y convertir la distancia en destino.<br>
-              <img src="img/iconos/comilla-cierre.svg" alt="">
+              <img src="img/iconos/comilla-cierre.svg" alt="Comilla de cierre">
             </p>
           </div>
 
@@ -68,7 +72,10 @@
 
   </section>
 
-  <!-- Cuenta Regresiva -->
+
+  <!-- =====================================================
+       CUENTA REGRESIVA
+       ===================================================== -->
   <section class="cuenta-regresiva">
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
@@ -107,18 +114,21 @@
     </div>
   </section>
 
-  <!-- Grupo de invitados — se muestra solo si hay ?id= en la URL -->
+
+  <!-- =====================================================
+       BLOQUE DE INVITADOS (visible solo con ?id= en la URL)
+       ===================================================== -->
   <section class="seccion-principal bloque-grupo-invitados" id="seccion-invitados" style="display:none">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-10">
           <div class="card-grupo-invitados">
             <div class="card-content">
-              <div class="pases-total" id="pases-total"></div>
-              <h3 class="titulo-grupo" id="nombre-invitado"></h3>
+              <div class="pases-total"     id="pases-total"></div>
+              <h3 class="titulo-grupo"     id="nombre-invitado"></h3>
               <div class="acompanantes-info" id="acompanantes-info"></div>
-              <ul class="lista-invitados" id="lista-invitados"></ul>
-              <p class="mensaje-grupo" id="mensaje-grupo"></p>
+              <ul class="lista-invitados"  id="lista-invitados"></ul>
+              <p class="mensaje-grupo"     id="mensaje-grupo"></p>
             </div>
           </div>
         </div>
@@ -126,7 +136,10 @@
     </div>
   </section>
 
-  <!-- Ceremonia y Recepción -->
+
+  <!-- =====================================================
+       CEREMONIA Y DRESS CODE
+       ===================================================== -->
   <section class="ceremonia-fiesta">
 
     <div class="ceremonia-fiesta-flor-der"></div>
@@ -134,7 +147,7 @@
     <div class="container">
       <div class="row">
 
-        <!-- Izquierda: Ceremonia y Recepción -->
+        <!-- Ceremonia -->
         <div class="col-md-6 col-ceremonia text-center">
 
           <div class="anim-anillos"></div>
@@ -170,7 +183,7 @@
           </div>
         </div>
 
-        <!-- Derecha: Dress Code -->
+        <!-- Dress Code -->
         <div class="col-md-6 col-fiesta text-center">
 
           <div class="anim-vestuario"></div>
@@ -193,7 +206,10 @@
     </div>
   </section>
 
-  <!-- Galería -->
+
+  <!-- =====================================================
+       GALERÍA — NUESTRA HISTORIA
+       ===================================================== -->
   <section class="galeria">
 
     <div class="container">
@@ -212,25 +228,25 @@
       <div class="carrusel">
         <div>
           <div class="polaroid">
-            <a href="img/1.jpg" data-fancybox="galeria"><img src="img/1.jpg" alt=""></a>
+            <a href="img/1.jpg" data-fancybox="galeria"><img src="img/1.jpg" alt="Foto 2022"></a>
             <p class="polaroid-caption">2022</p>
           </div>
         </div>
         <div>
           <div class="polaroid">
-            <a href="img/2.jpg" data-fancybox="galeria"><img src="img/2.jpg" alt=""></a>
+            <a href="img/2.jpg" data-fancybox="galeria"><img src="img/2.jpg" alt="Foto 2024"></a>
             <p class="polaroid-caption">2024</p>
           </div>
         </div>
         <div>
           <div class="polaroid">
-            <a href="img/4.jpg" data-fancybox="galeria"><img src="img/4.jpg" alt=""></a>
+            <a href="img/4.jpg" data-fancybox="galeria"><img src="img/4.jpg" alt="Foto 2025"></a>
             <p class="polaroid-caption">2025</p>
           </div>
         </div>
         <div>
           <div class="polaroid">
-            <a href="img/5.jpg" data-fancybox="galeria"><img src="img/5.jpg" alt=""></a>
+            <a href="img/5.jpg" data-fancybox="galeria"><img src="img/5.jpg" alt="Foto 2025"></a>
             <p class="polaroid-caption">2025</p>
           </div>
         </div>
@@ -240,7 +256,10 @@
 
   </section>
 
-  <!-- Nuestra Canción -->
+
+  <!-- =====================================================
+       CANCIÓN DE LA CEREMONIA
+       ===================================================== -->
   <section class="fiesta">
 
     <div class="container">
@@ -263,18 +282,11 @@
               <div class="anim-musica"></div>
             </div>
 
-            <p style="font-family: var(--fuente-1); font-size: 26px; color: var(--color-1); margin-bottom: 5px;">
-              Cristo, Sé Magnificado
-            </p>
+            <p class="cancion-titulo">Cristo, Sé Magnificado</p>
+            <p class="cancion-artista">TWICE MÚSICA</p>
 
-            <p style="font-size: 14px; color: var(--color-2); margin-bottom: 15px;">
-              TWICE MÚSICA
-            </p>
-
-            <div
-              style="border-left: 3px solid var(--color-2); padding: 12px 18px; margin: 10px 0 20px; text-align: left;">
-              <p
-                style="font-family: var(--fuente-2); font-size: 15px; color: var(--color-1); line-height: 2; margin: 0; font-style: normal;">
+            <div class="cancion-letra-preview">
+              <p>
                 Desde el principio de la creación<br>
                 Se levantan voces a un clamor<br>
                 Desde oeste a este y norte a sur<br>
@@ -282,24 +294,20 @@
               </p>
             </div>
 
-            <!-- 🎧 AUDIO MP3 -->
+            <!-- Audio de la canción -->
             <audio id="audio-cancion" preload="auto">
-              <source src="/audio/cancion.mp3" type="audio/mpeg">
+              <source src="audio/cancion.mp3" type="audio/mpeg">
               Tu navegador no soporta audio.
             </audio>
 
-            <!-- BOTONES -->
-            <div
-              style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; width: 100%; margin-top: 10px;">
-
+            <!-- Botones de acción -->
+            <div class="cancion-botones">
               <a href="#" class="boton" id="btn-cancion" onclick="toggleCancion(event)">
                 ▶ Escuchar canción
               </a>
-
               <a href="#" class="boton" data-toggle="modal" data-target="#modalLetra">
                 Ver letra completa
               </a>
-
             </div>
 
           </div>
@@ -309,7 +317,10 @@
     </div>
   </section>
 
-  <!-- Regalos -->
+
+  <!-- =====================================================
+       REGALOS
+       ===================================================== -->
   <section class="regalos">
 
     <div class="regalos-flor-der"></div>
@@ -317,8 +328,9 @@
     <div class="container">
       <div class="row text-center d-flex justify-content-center align-items-center">
         <h2 class="title">Regalos</h2>
-        <p class="subtitle">Lo más valioso es tu compañía, pero si deseas tener un gesto especial, la lluvia de sobres
-          será bienvenida 💌.</p>
+        <p class="subtitle">
+          Lo más valioso es tu compañía, pero si deseas tener un gesto especial, la lluvia de sobres será bienvenida 💌.
+        </p>
         <div class="w-100">
           <div class="anim-regalos"></div>
         </div>
@@ -327,14 +339,16 @@
 
   </section>
 
-  <!-- Instagram -->
+
+  <!-- =====================================================
+       CITA / INSTAGRAM
+       ===================================================== -->
   <section class="instagram">
 
     <div class="container">
       <div class="row text-center d-flex justify-content-center align-items-center">
-        <h2 class="title">“Nos haría inmensamente felices contar con tu presencia en este día tan especial.”</h2>
-        <p class="subtitle">“Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto.”
-        — Colosenses 3:14</p>
+        <h2 class="title">"Nos haría inmensamente felices contar con tu presencia en este día tan especial."</h2>
+        <p class="subtitle">"Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto." — Colosenses 3:14</p>
         <div class="w-100">
           <div class="anim-instagram"></div>
         </div>
@@ -344,17 +358,19 @@
 
   </section>
 
-  <!-- Footer --> 
+
+  <!-- =====================================================
+       FOOTER — NOMBRES Y ACCIONES
+       ===================================================== -->
   <section class="footer">
     <div class="container">
       <div class="row">
 
         <div class="col-md-6 col-nombres-footer d-flex justify-content-end align-items-center">
-          <h4>Vivi <span>&</span> David</h4>
+          <h4>Vivi <span>&amp;</span> David</h4>
         </div>
 
-        <div
-          class="col-md-6 col-acciones-footer d-flex justify-content-center justify-content-md-start align-items-center">
+        <div class="col-md-6 col-acciones-footer d-flex justify-content-center justify-content-md-start align-items-center">
           <ul>
             <li>
               <a href="#" data-evento="Ceremonia" class="confirmar-asistencia">Confirmar asistencia</a>
@@ -375,7 +391,10 @@
     </div>
   </section>
 
-  <!-- Firma -->
+
+  <!-- =====================================================
+       FIRMA
+       ===================================================== -->
   <footer>
     <div class="container">
       <div class="row">
@@ -389,25 +408,22 @@
     </div>
   </footer>
 
-  <!-- Controlador música de fondo -->
-  <!--   <div id="controlador-musica">
-    <div id="play-pause-music" data-estado-music="pause" class="music-anim-icon"></div>
-  </div>
-  <div id="player-musica-fondo"></div> -->
 
-  <!-- ==================== MODALES ==================== -->
+  <!-- =====================================================
+       MODALES
+       ===================================================== -->
 
-  <!-- Modal asistencia -->
+  <!-- Modal: Confirmar asistencia -->
   <div id="modalAsistencia" class="modal fade" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
 
         <div class="img-top-modal d-flex justify-content-center align-items-start">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
             <span aria-hidden="true">&times;</span>
           </button>
           <div class="white-circle-icon">
-            <img class="" src="img/iconos/img_circuloCeremonia.svg" alt="">
+            <img src="img/iconos/img_circuloCeremonia.svg" alt="Icono ceremonia">
           </div>
         </div>
 
@@ -417,17 +433,16 @@
 
         <div class="modal-body">
           <div class="formulario-content">
-            <form id="formAsistencia" action="">
+            <form id="formAsistencia">
 
               <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
                 <div class="form-check">
-                  <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="1" value="Si"
-                    checked>
-                  <label class="form-check-label custom-control-label" for="1">Si! Confirmo</label>
+                  <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="opcion-si" value="Si" checked>
+                  <label class="form-check-label custom-control-label" for="opcion-si">Si! Confirmo</label>
                 </div>
                 <div class="form-check">
-                  <input class="custom-control-input" type="radio" name="asistencia" id="2" value="No">
-                  <label class="custom-control-label" for="2">No puedo :(</label>
+                  <input class="custom-control-input" type="radio" name="asistencia" id="opcion-no" value="No">
+                  <label class="custom-control-label" for="opcion-no">No puedo :(</label>
                 </div>
               </div>
 
@@ -442,7 +457,7 @@
               </div>
 
               <input id="eventoAsistencia" type="hidden" name="evento" value="">
-              <input type="hidden" name="lang" value="es">
+              <input type="hidden" name="lang"    value="es">
               <input type="hidden" name="country" value="co">
 
             </form>
@@ -458,17 +473,18 @@
     </div>
   </div>
 
-  <!-- Modal letra completa -->
+
+  <!-- Modal: Letra completa -->
   <div id="modalLetra" class="modal fade" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content" style="text-align:center; border:none; padding-bottom:20px;">
+      <div class="modal-content modal-letra-content">
 
         <div class="img-top-modal d-flex justify-content-center align-items-start">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
             <span aria-hidden="true">&times;</span>
           </button>
           <div class="white-circle-icon">
-            <img src="img/iconos/tips.svg" alt="">
+            <img src="img/iconos/tips.svg" alt="Icono letra">
           </div>
         </div>
 
@@ -476,48 +492,40 @@
           <h5 class="modal-title" style="width:100%;">Cristo, Sé Magnificado</h5>
         </div>
 
-        <div class="modal-body" style="text-align:center; max-height:60vh; overflow-y:auto;">
-          <p style="color:var(--color-2); font-size:13px; text-align:center; margin-bottom:20px;">TWICE MÚSICA</p>
+        <div class="modal-body modal-letra-body">
+          <p class="cancion-artista">TWICE MÚSICA</p>
 
-          <div
-            style="font-family: var(--fuente-2); font-size: 15px; color: var(--color-1); line-height: 2; font-style: normal; padding: 0 10px;">
+          <div class="modal-letra-texto">
             <p>
               Desde el principio de la creación<br>
               Se levantan voces a un clamor<br>
               Desde oeste a este y norte a sur<br>
-              Magnifícate, Señor<br>
-              <br>
+              Magnifícate, Señor<br><br>
 
               Todo el mundo canta de su inmensidad<br>
               Sobre el mar y el cielo brillará<br>
               Desde lo alto y bajo se oirá<br>
-              Magnifícate, Señor<br>
-              <br>
+              Magnifícate, Señor<br><br>
 
               Oh, sé magnificado<br>
               Tu nombre alabado<br>
               Sé magnificado en mí<br>
               Oh, sé magnificado<br>
               En mi vida exaltado<br>
-              Sé magnificado en mí<br>
-              <br>
+              Sé magnificado en mí<br><br>
 
               Una melodía de la intimidad<br>
               Cada corazón levantará<br>
               Himnos de alabanza se oirán<br>
-              Magnifícate, Señor<br>
-              <br>
+              Magnifícate, Señor<br><br>
 
               Oh, sé magnificado<br>
               Tu nombre alabado<br>
-              Sé magnificado en mí<br>
-              <br>
+              Sé magnificado en mí<br><br>
 
               Oh, sé magnificado<br>
               En mi vida exaltado<br>
               Sé magnificado en mí
-            </p>
-            <!-- Pega aquí el resto de la letra -->
             </p>
           </div>
 
@@ -527,17 +535,18 @@
     </div>
   </div>
 
-  <!-- Modal vestuario -->
+
+  <!-- Modal: Vestuario / Dress Code -->
   <div id="modalVestuario" class="modal fade" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
 
         <div class="img-top-modal d-flex justify-content-center align-items-start">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
             <span aria-hidden="true">&times;</span>
           </button>
           <div class="white-circle-icon">
-            <img class="" src="img/iconos/vestuario.svg" alt="">
+            <img src="img/iconos/vestuario.svg" alt="Icono vestuario">
           </div>
         </div>
 
@@ -547,16 +556,12 @@
 
         <div class="modal-body">
 
-          <div
-            style="border-radius: 12px; overflow: hidden; box-shadow: 0px 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease; margin: 10px 0 20px;"
-            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 15px 35px rgba(0,0,0,0.20)'"
-            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 25px rgba(0,0,0,0.15)'">
-            <img src="img/dresscode-1.png" style="width:100%; display:block;" alt="Dress Code">
+          <div class="dresscode-card">
+            <img src="img/dresscode-1.png" alt="Dress Code">
           </div>
 
-          <div
-            style="background-color: #c6d7cf; border-left: 3px solid #81948B; border-radius: 0 8px 8px 0; padding: 12px 15px; margin-top: 10px;">
-            <p style="margin:0; font-size:14px; color:#4A6360; line-height:1.6;">
+          <div class="dresscode-aviso">
+            <p>
               👠 <strong>Recomendación:</strong> Si vas a usar tacones, que sean de base ancha o plataforma para mayor comodidad,
               ya que el evento es al aire libre y el terreno es de césped.
             </p>
@@ -570,13 +575,14 @@
     </div>
   </div>
 
-  <!-- Modal mapa -->
+
+  <!-- Modal: Mapa / Cómo llegar -->
   <div id="modalMapa" class="modal fade" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
 
         <div class="img-top-modal d-flex justify-content-center align-items-start">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -589,63 +595,33 @@
           <div id="mapLoader" class="map-loader">
             <div class="map-spinner"></div>
           </div>
-          <iframe id="googleMapIframe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe id="googleMapIframe" width="100%" height="450" style="border:0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="modal-footer">
-          <a class="boton ampliar-mapa" target="_blank" href="#">Ir a google maps</a>
+          <a class="boton ampliar-mapa" target="_blank" href="#">Ir a Google Maps</a>
         </div>
 
       </div>
     </div>
   </div>
 
-  <!-- ==================== SCRIPTS ==================== -->
 
-  <!-- Variables globales -->
-  <script>
-    var _pathProducto = "";
-    var _pathApp = "https://script.google.com/macros/s/AKfycbwLUNNyAAYYT_VoZg6E3PwVX1RT0sKJ5hKB2vjaEB2hxuBNJEHl9dguUaUuWYV8ZyPMfg/exec";
-    var langJs = "es";
-    var langJsVariante = "es-CO";
-    var langDefault = "es-CO";
+  <!-- =====================================================
+       SCRIPTS — orden de carga
+       ===================================================== -->
 
-    // Cuenta regresiva
-    var fechaCuentaRegresiva = "07/26/2026 10:00:00";
-
-    // Mapa
-    var latitudCeremonia = 6.23045627217443;
-    var longitudCeremonia = -75.48345060496771;
-    var linkMapsCeremonia = "https://maps.app.goo.gl/xxMTXdKuvx2eXvQV7";
-  </script>
-
-  <!-- Tipo de dispositivo -->
-  <script>
-    var device = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
-  </script>
-
-  <!-- Funciones globales -->
-  <script>
-    function is_url(str) {
-      var regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
-      return regexp.test(str);
-    }
-
-    function support_format_webp() {
-      var elem = document.createElement('canvas');
-      if (!!(elem.getContext && elem.getContext('2d'))) {
-        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
-      }
-      return false;
-    }
-  </script>
-
-  <!-- Lottie -->
+  <!-- 1. Lottie (sin jQuery) -->
   <script src="js/lottie_svg.min.js"></script>
 
-  <!-- Scripts JS -->
+  <!-- 2. Traducciones / idioma (sin jQuery) -->
   <script src="js/es-CO.js"></script>
+
+  <!-- 3. Configuración del proyecto (sin jQuery) -->
+  <script src="js/config.js"></script>
+
+  <!-- 4. jQuery y plugins -->
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/noframework.waypoints.min.js"></script>
   <script src="js/parallax.min.js"></script>
@@ -653,331 +629,12 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+
+  <!-- 5. Lógica principal del proyecto -->
   <script src="js/scripts.js"></script>
 
-  <!-- Animaciones Lottie -->
-  <script>
-    // Ícono música de fondo
-    var animMusicAnimIcon = bodymovin.loadAnimation({
-      wrapper: document.querySelector('.music-anim-icon'),
-      animType: 'svg', autoplay: false, loop: true,
-      path: _pathProducto + "img/music-player-icon.json"
-    });
-
-    // Control música de fondo
-    $(document).on('click', '#play-pause-music', function (e) {
-      e.preventDefault();
-
-      var audio = document.getElementById("audio-cancion");
-      var estadoMusic = $(this).attr('data-estado-music');
-
-      if (estadoMusic == 'pause') {
-        $(this).attr('data-estado-music', 'play');
-        animMusicAnimIcon.play();
-        audio.play();
-      } else {
-        $(this).attr('data-estado-music', 'pause');
-        audio.pause();
-        animMusicAnimIcon.stop();
-      }
-    });
-
-    // Flores portada
-
-    // Flores portada — líneas 690, 691, 692
-var animFlores1 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-sup'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas01.json" });
-var animFlores2 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-der-inf'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas02.json" });
-var animFlores3 = bodymovin.loadAnimation({ wrapper: document.querySelector('.portada-flor-izq-inf'), animType: 'svg', autoplay: true, loop: false, path: _pathProducto + "img/json_hojas03.json" });
-    var animFlores4 = bodymovin.loadAnimation({ wrapper: document.querySelector('.ceremonia-fiesta-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
-    var animFlores5 = bodymovin.loadAnimation({ wrapper: document.querySelector('.regalos-flor-der'), animType: 'svg', autoplay: false, loop: false, path: _pathProducto + "img/json_hojas04.json" });
-
-    // Waypoints flores
-    new Waypoint({ element: document.querySelector('.cuenta-regresiva'), handler: function () { animFlores1.stop(); animFlores1.play(); } });
-    new Waypoint({ element: document.querySelector('.cuenta-regresiva'), handler: function () { animFlores2.stop(); animFlores2.play(); } });
-    new Waypoint({ element: document.querySelector('.falta'), handler: function () { animFlores3.stop(); animFlores3.play(); } });
-    new Waypoint({ element: document.querySelector('.falta'), handler: function () { animFlores4.stop(); animFlores4.play(); } });
-    new Waypoint({ element: document.querySelector('.regalos'), handler: function () { animFlores5.stop(); animFlores5.play(); } });
-
-    // Flecha scroll
-    var animFlechaScroll = bodymovin.loadAnimation({ wrapper: document.querySelector('.flecha-continuar'), animType: 'svg', loop: true, path: _pathProducto + "img/down-scroll.json" });
-    animFlechaScroll.setSpeed(0.6);
-
-    // Corazón cuenta regresiva
-    bodymovin.loadAnimation({ wrapper: document.querySelector('.corazon-falta'), animType: 'svg', loop: true, path: _pathProducto + "img/corazon-falta.json" });
-
-    // Anillos
-    var animAnillos = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-anillos'), animType: 'svg', loop: true, path: _pathProducto + "img/img_ceremonia.json" });
-    animAnillos.play();
-
-    // Vestuario
-    var animVestuario = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-vestuario'), animType: 'svg', loop: true, path: _pathProducto + "img/vestuario.json" });
-    animVestuario.play();
-
-    // Galería
-    var animGaleria = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-galeria'), animType: 'svg', loop: true, path: _pathProducto + "img/json_camara.json" });
-    animGaleria.play();
-
-    // Música
-    var animMusica = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-musica'), animType: 'svg', loop: true, path: _pathProducto + "img/img_musica.json" });
-    animMusica.play();
-
-    // Regalos
-    var animRegalos = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-regalos'), animType: 'svg', loop: true, path: _pathProducto + "img/img_regalo.json" });
-    animRegalos.play();
-
-    // Instagram
-    var animInstagram = bodymovin.loadAnimation({ wrapper: document.querySelector('.anim-instagram'), animType: 'svg', loop: true, path: _pathProducto + "img/img_instagram.json" });
-    animInstagram.play();
-  </script>
-
-  <!-- Carrusel galería -->
-  <script>
-    $('.carrusel').slick({
-      lazyLoad: 'ondemand', autoplay: true, autoplaySpeed: 2000,
-      centerMode: true, dots: true, centerPadding: '20px',
-      slidesToShow: 3, prevArrow: false, nextArrow: false,
-      responsive: [
-        { breakpoint: 768, settings: { arrows: false, centerMode: true, centerPadding: '40px', slidesToShow: 3 } },
-        { breakpoint: 480, settings: { arrows: false, centerMode: true, centerPadding: '40px', slidesToShow: 1 } }
-      ]
-    });
-  </script>
-
-  <!-- Confirmar asistencia -->
-  <script>
-    $('body').on('click', 'a.confirmar-asistencia', function (e) {
-      e.preventDefault();
-      $("#error-form").remove();
-      $('#eventoAsistencia').val('Ceremonia');
-      $('#modalAsistencia .modal-title').text(lang_titleModalAsistenciaCeremonia);
-      $('#modalAsistencia .img-top-modal img').attr('src', _pathProducto + 'img/iconos/img_circuloCeremonia.svg');
-      $('#modalAsistencia').modal({ backdrop: 'static' });
-    });
-
-    function isOkAsistencia() {
-      $("#error-form").remove();
-      var flag = true, err = '';
-      var name = $.trim($("#nombreAsistente").val());
-      var comments = $.trim($("#comentariosAsistente").val());
-      if (name == '') { flag = false; err = lang_nombreRequerido; }
-      else if (name.length > 100) { flag = false; err = lang_caracteresNombreAsistencia; }
-      if (comments != '' && comments.length > 100) { flag = false; err = lang_caracteresComentariosAsistencia; }
-      if (!flag) $('#formAsistencia').after('<span id="error-form">' + err + '</span>');
-      return flag;
-    }
-
-    $('body').on('click', '#sendAsistencia', function (e) {
-      e.preventDefault();
-
-      if (isOkAsistencia()) {
-
-        $("#sendAsistencia").text("Enviando...").prop("disabled", true);
-
-        var datos = {
-          nombre: $.trim($("#nombreAsistente").val()),
-          asistencia: $("input[name='asistencia']:checked").val(),
-          comentarios: $.trim($("#comentariosAsistente").val()),
-          evento: "Ceremonia"
-        };
-
-        fetch(_pathApp, {
-          method: "POST",
-          mode: "no-cors",
-          headers: { "Content-Type": "text/plain" },
-          body: JSON.stringify(datos)
-        })
-          .then(function () {
-            // Con no-cors no podemos leer la respuesta,
-            // así que asumimos éxito si no hay error
-            $("#sendAsistencia").text("Enviar").prop("disabled", false);
-            $('#formAsistencia')[0].reset();
-            $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').hide();
-            $('#modalAsistencia .modal-body').addClass('fix-height');
-            $('#modalAsistencia .msj-content').html(
-              "<h5>¡Gracias!</h5><p>Tu respuesta fue registrada correctamente.</p>"
-            ).show();
-            setTimeout(function () {
-              $('#modalAsistencia').modal('hide');
-              $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').show();
-              $('#modalAsistencia .msj-content').html('').hide();
-              $('#modalAsistencia .modal-body').removeClass('fix-height');
-            }, 4000);
-          })
-          .catch(function () {
-            $("#sendAsistencia").text("Enviar").prop("disabled", false);
-            $('#formAsistencia').after('<span id="error-form">Error de conexión, intenta de nuevo.</span>');
-          });
-      }
-    });
-  </script>
-
-  <!-- Cuenta regresiva -->
-  <script>
-    var countDownDate = new Date(fechaCuentaRegresiva).getTime();
-    var x = setInterval(function () {
-      var distance = countDownDate - new Date().getTime();
-      $("#dias .number").text(Math.floor(distance / 86400000));
-      $("#horas .number").text(Math.floor((distance % 86400000) / 3600000));
-      $("#minutos .number").text(Math.floor((distance % 3600000) / 60000));
-      $("#segundos .number").text(Math.floor((distance % 60000) / 1000));
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("reloj").innerHTML = '<p class="fin-cuenta">' + lang_textoFinalCuentaRegresiva + '</p>';
-        $('.falta').text('');
-      }
-    }, 1000);
-  </script>
-
-  <!-- Modal vestuario -->
-  <script>
-    $('body').on('click', 'a.modal-vestuario', function (e) {
-      e.preventDefault();
-      $('#modalVestuario').modal({ backdrop: 'static' });
-    });
-  </script>
-
-  <!-- Modal cómo llegar -->
-  <script>
-    $('body').on('click', 'a.modal-como-llegar', function (e) {
-      e.preventDefault();
-      var iframeSrc = 'https://www.google.com/maps?q=' + latitudCeremonia + ',' + longitudCeremonia + '&output=embed';
-      var linkMaps = linkMapsCeremonia || 'https://www.google.com/maps/search/?api=1&query=' + latitudCeremonia + ',' + longitudCeremonia;
-      $('#modalMapa .modal-title').text(lang_titleModalMapaCeremonia);
-      $('#mapLoader').removeClass('hidden');
-      $('#googleMapIframe').css('opacity', '0').attr('src', iframeSrc);
-      $('#googleMapIframe').off('load').on('load', function () {
-        $('#mapLoader').addClass('hidden');
-        $('#googleMapIframe').css('opacity', '1');
-      });
-      $('.ampliar-mapa').attr('href', linkMaps);
-      $('#modalMapa').modal({ backdrop: 'static' });
-    });
-
-    $('#modalMapa').on('hidden.bs.modal', function () {
-      $('#mapLoader').removeClass('hidden');
-      $('#googleMapIframe').css('opacity', '0').attr('src', '');
-    });
-  </script>
-
-  <!-- Parallax -->
-  <script>
-$(document).ready(function () {
-
-  if ($(window).width() >= 768) {
-    // Desktop: tu parallax original
-    $('.portada').parallax({ imageSrc: _pathProducto + 'img/portada-3.webp' });
-    $('.instagram').parallax({ imageSrc: _pathProducto + 'img/instagram.webp' });
-
-  } else {
-    // Mobile: parallax manual con translateY
-    var $portada = $('.portada');
-    var $instagram = $('.instagram');
-
-    // Detectar imagen correcta según ancho
-    var imgPortada = $(window).width() <= 768 
-      ? _pathProducto + 'img/portada-mobile.webp'
-      : _pathProducto + 'img/portada-3.webp';
-
-    var imgInstagram = $(window).width() <= 768
-      ? _pathProducto + 'img/instagram-mobile.webp'
-      : _pathProducto + 'img/instagram.webp';
-
-    $portada.css({
-      'background-image': 'url(' + imgPortada + ')',
-      'background-size': 'cover',
-      'will-change': 'background-position'
-    });
-
-$instagram.css({
-  'background-image': 'linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.2) 50%, rgba(0, 0, 0, 0.3) 100%), url(' + imgInstagram + ')',
-  'background-size': 'cover',
-  'will-change': 'background-position'
-});
-
-    // Efecto parallax via background-position
-    window.addEventListener('scroll', function () {
-      var scrollY = window.pageYOffset;
-
-      // Portada: se mueve más lento que el scroll (factor 0.3)
-      var portadaOffset = scrollY * 0.3;
-      $portada.css('background-position', 'center ' + portadaOffset + 'px');
-
-      // Instagram: calcular posición relativa al elemento
-      var instagramTop = $instagram.offset().top;
-      var instagramOffset = (scrollY - instagramTop) * 0.3;
-      $instagram.css('background-position', 'center calc(50% + ' + instagramOffset + 'px)');
-
-    }, { passive: true }); // passive:true es importante para no bloquear el scroll en mobile
-  }
-
-});
-  </script>
-
-  <!-- Invitados dinámicos -->
-  <script>
-    var invitados = {
-      // "nombre-apellido": {
-      //   nombre: "Nombre Apellido",
-      //   pases: 2,
-      //   acompanantes: ["Acompañante 1"],
-      //   mensaje: "Mensaje personalizado."
-      // }
-    };
-
-    var idInvitado = new URLSearchParams(window.location.search).get('id');
-    if (idInvitado && invitados[idInvitado]) {
-      var inv = invitados[idInvitado];
-      document.getElementById('pases-total').textContent = inv.pases;
-      document.getElementById('nombre-invitado').textContent = inv.nombre;
-      document.getElementById('mensaje-grupo').textContent = inv.mensaje;
-      if (inv.acompanantes.length > 0) {
-        document.getElementById('acompanantes-info').textContent =
-          '(' + inv.acompanantes.length + ' acompañante' + (inv.acompanantes.length > 1 ? 's' : '') + ')';
-        var lista = document.getElementById('lista-invitados');
-        inv.acompanantes.forEach(function (n) {
-          var li = document.createElement('li');
-          li.className = 'invitado-item';
-          li.textContent = n;
-          lista.appendChild(li);
-        });
-      }
-      document.getElementById('seccion-invitados').style.display = 'block';
-    }
-  </script>
-
-  <!-- AddEvent -->
-  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
-  <script type="text/javascript">
-    window.addeventasync = function () {
-      addeventatc.settings({
-        css: false,
-        appleical: { show: true, text: "Apple Calendar" },
-        google: { show: true, text: "Google <em>(online)</em>" },
-        office365: { show: true, text: "Office 365 <em>(online)</em>" },
-        outlook: { show: true, text: "Outlook" },
-        outlookcom: { show: true, text: "Outlook.com <em>(online)</em>" },
-        yahoo: { show: true, text: "Yahoo <em>(online)</em>" },
-        facebook: { show: true, text: "Facebook" }
-      });
-    };
-  </script>
-
-  <script>
-    function toggleCancion(e) {
-      e.preventDefault();
-
-      var audio = document.getElementById("audio-cancion");
-      var btn = document.getElementById("btn-cancion");
-
-      if (audio.paused) {
-        audio.play();
-        btn.textContent = "⏸ Pausar canción";
-      } else {
-        audio.pause();
-        btn.textContent = "▶ Escuchar canción";
-      }
-    }
-  </script>
+  <!-- 6. AddEvent (asíncrono, carga al final) -->
+  <script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
 </body>
 
