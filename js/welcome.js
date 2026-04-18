@@ -149,6 +149,7 @@
           duration: 0.3 * speed,
           ease: 'sine.inOut'
         })
+        
         .set(flap,   { zIndex: 2 })
         .set(letter, { zIndex: 3 })
         .to(letter, {
