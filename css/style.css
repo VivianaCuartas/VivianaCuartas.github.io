@@ -9,6 +9,10 @@
   --color-6: #868686;
   --color-7: #BFA880;
 
+  /* Evita el parpadeo gris al cargar desde el sobre */
+html, body {
+  background-color: var(--color-1); /* #4A6360 — verde oscuro de tu paleta */
+}
 
   /* Fuentes */
 

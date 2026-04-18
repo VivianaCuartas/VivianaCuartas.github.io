@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boda de Viviana y David</title>
+  <meta name="theme-color" content="#C6D7CF">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS de terceros -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/addEvent.css">
+
+  <!-- CSS del proyecto -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       PORTADA
+       ===================================================== -->
+  <section class="portada">
+
+    <div class="portada-flor-izq-sup"></div>
+    <div class="portada-flor-der-inf"></div>
+    <div class="portada-flor-izq-inf"></div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="content-portada text-center">
+
+          <div class="box-nombres-fecha-portada">
+            <span class="fecha">26.07.2026</span>
+            <h1>
+              Viviana
+              <br class="d-md-none">
+              <span>&amp;</span>
+              <br class="d-md-none">
+              David
+            </h1>
+            <div class="line"></div>
+          </div>
+
+          <div class="box-frase-portada">
+            <p>
+              <img src="img/iconos/comilla-apertura.svg" alt="Comilla de apertura"><br>
+              El amor puede cruzar oceanos, <br> y convertir la distancia en destino.<br>
+              <img src="img/iconos/comilla-cierre.svg" alt="Comilla de cierre">
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="flecha-continuar"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       CUENTA REGRESIVA
+       ===================================================== -->
+  <section class="cuenta-regresiva">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="box-aros d-flex justify-content-center align-items-center">
+          <div class="box-circulo text-center">
+
+            <span class="falta">Falta</span>
+
+            <div id="reloj" class="reloj">
+              <div id="dias" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">días</span>
+              </div>
+              <div id="horas" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">hs</span>
+              </div>
+              <div id="minutos" class="reloj-col">
+                <span class="number"></span>
+                <span class="time">min</span>
+              </div>
+              <div id="segundos" class="reloj-col no-border">
+                <span class="number"></span>
+                <span class="time">seg</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="corazon-falta"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       BLOQUE DE INVITADOS (visible solo con ?id= en la URL)
+       ===================================================== -->
+  <section class="seccion-principal bloque-grupo-invitados" id="seccion-invitados" style="display:none">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="card-grupo-invitados">
+            <div class="card-content">
+              <div class="pases-total"     id="pases-total"></div>
+              <h3 class="titulo-grupo"     id="nombre-invitado"></h3>
+              <div class="acompanantes-info" id="acompanantes-info"></div>
+              <ul class="lista-invitados"  id="lista-invitados"></ul>
+              <p class="mensaje-grupo"     id="mensaje-grupo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       CEREMONIA Y DRESS CODE
+       ===================================================== -->
+  <section class="ceremonia-fiesta">
+
+    <div class="ceremonia-fiesta-flor-der"></div>
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Ceremonia -->
+        <div class="col-md-6 col-ceremonia text-center">
+
+          <div class="anim-anillos"></div>
+          <br>
+          <h3>Ceremonia y Recepción</h3>
+
+          <div class="info-col">
+
+            <div class="info-box">
+              <h6>Día</h6>
+              <p>Domingo 26 de Julio — 09:30 am</p>
+              <a href="#" class="boton addeventatc">
+                <span class="nameBtn">Agendar</span>
+                <span class="start">2026-07-26 09:30:00</span>
+                <span class="end">2026-07-26 14:00:00</span>
+                <span class="timezone">America/Bogota</span>
+                <span class="title">Boda de Viviana y David</span>
+              </a>
+            </div>
+
+            <div class="info-box">
+              <h6>Lugar</h6>
+              <p>Cariva Eventos - Santa Elena</p>
+              <a href="#" data-evento="Ceremonia" class="boton confirmar-asistencia">Confirmar asistencia</a>
+            </div>
+
+            <div class="info-box">
+              <h6>Dirección</h6>
+              <p>Calle 51A / Vía Barro Blanco, Santa Elena, Medellín</p>
+              <a href="#" data-evento="Ceremonia" class="boton modal-como-llegar">¿Cómo llegar?</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Dress Code -->
+        <div class="col-md-6 col-fiesta text-center">
+
+          <div class="anim-vestuario"></div>
+          <br>
+          <h3>Código de vestimenta</h3>
+
+          <div class="info-col">
+            <div class="info-box">
+              <p>Semi-formal.</p>
+              <br>
+              <p>El blanco/beige será exclusivo de la novia y el verde oliva del novio, por lo que se recomienda evitar
+                estos colores.</p>
+              <a href="#" class="boton modal-vestuario">Ver referencias</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       GALERÍA — NUESTRA HISTORIA
+       ===================================================== -->
+  <section class="galeria">
+
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <div class="content-galeria">
+          <h2 class="title">Nuestra historia</h2>
+          <div class="anim-galeria"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-fotos">
+      <div class="shadow-left"></div>
+      <div class="shadow-right"></div>
+
+      <div class="carrusel">
+        <div>
+          <div class="polaroid">
+            <a href="img/1.jpg" data-fancybox="galeria"><img src="img/1.jpg" alt="Foto 2022"></a>
+            <p class="polaroid-caption">2022</p>
+          </div>
+        </div>
+        <div>
+          <div class="polaroid">
+            <a href="img/2.jpg" data-fancybox="galeria"><img src="img/2.jpg" alt="Foto 2024"></a>
+            <p class="polaroid-caption">2024</p>
+          </div>
+        </div>
+        <div>
+          <div class="polaroid">
+            <a href="img/4.jpg" data-fancybox="galeria"><img src="img/4.jpg" alt="Foto 2025"></a>
+            <p class="polaroid-caption">2025</p>
+          </div>
+        </div>
+        <div>
+          <div class="polaroid">
+            <a href="img/5.jpg" data-fancybox="galeria"><img src="img/5.jpg" alt="Foto 2025"></a>
+            <p class="polaroid-caption">2025</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       CANCIÓN DE LA CEREMONIA
+       ===================================================== -->
+  <section class="fiesta">
+
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+
+        <div class="col-md-12">
+          <h2 class="title">Canción ceremonia</h2>
+          <p class="subtitle">
+            Esta canción abrirá nuestra ceremonia religiosa. ¡Nos encantaría que nos acompañes cantándola!
+          </p>
+        </div>
+
+        <div class="col-md-6 item-fiesta">
+
+          <img class="hojas-musica" src="img/iconos/img_hojasFiesta.svg" alt="">
+
+          <div class="w-100 content-item-fiesta d-flex flex-column justify-content-between align-items-center">
+
+            <div class="d-flex justify-content-center align-items-center content-anim-fiesta">
+              <div class="anim-musica"></div>
+            </div>
+
+            <p class="cancion-titulo">Cristo, Sé Magnificado</p>
+            <p class="cancion-artista">TWICE MÚSICA</p>
+
+            <div class="cancion-letra-preview">
+              <p>
+                Desde el principio de la creación<br>
+                Se levantan voces a un clamor<br>
+                Desde oeste a este y norte a sur<br>
+                Magnificate Señor
+              </p>
+            </div>
+
+            <!-- Audio de la canción -->
+            <audio id="audio-cancion" preload="auto">
+              <source src="audio/cancion.mp3" type="audio/mpeg">
+              Tu navegador no soporta audio.
+            </audio>
+
+            <!-- Botones de acción -->
+            <div class="cancion-botones">
+              <a href="#" class="boton" id="btn-cancion" onclick="toggleCancion(event)">
+                ▶ Escuchar canción
+              </a>
+              <a href="#" class="boton" data-toggle="modal" data-target="#modalLetra">
+                Ver letra completa
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       REGALOS
+       ===================================================== -->
+  <section class="regalos">
+
+    <div class="regalos-flor-der"></div>
+
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <h2 class="title">Regalos</h2>
+        <p class="subtitle">
+          Lo más valioso es tu compañía, pero si deseas tener un gesto especial, la lluvia de sobres será bienvenida 💌.
+        </p>
+        <div class="w-100">
+          <div class="anim-regalos"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       CITA / INSTAGRAM
+       ===================================================== -->
+  <section class="instagram">
+
+    <div class="container">
+      <div class="row text-center d-flex justify-content-center align-items-center">
+        <h2 class="title">"Nos haría inmensamente felices contar con tu presencia en este día tan especial."</h2>
+        <p class="subtitle">"Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto." — Colosenses 3:14</p>
+        <div class="w-100">
+          <div class="anim-instagram"></div>
+        </div>
+        <br>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       FOOTER — NOMBRES Y ACCIONES
+       ===================================================== -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-nombres-footer d-flex justify-content-end align-items-center">
+          <h4>Vivi <span>&amp;</span> David</h4>
+        </div>
+
+        <div class="col-md-6 col-acciones-footer d-flex justify-content-center justify-content-md-start align-items-center">
+          <ul>
+            <li>
+              <a href="#" data-evento="Ceremonia" class="confirmar-asistencia">Confirmar asistencia</a>
+            </li>
+            <li>
+              <div title="" class="addeventatc">
+                <span class="nameBtn">Agendar en calendario</span>
+                <span class="start">2026-07-26 09:30:00</span>
+                <span class="end">2026-07-26 14:00:00</span>
+                <span class="timezone">America/Bogota</span>
+                <span class="title">Boda de Viviana y David</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       FIRMA
+       ===================================================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Desarrollado con <span class="heart">&#129505;</span> por
+            <a href="#" target="_blank">Viviana Cuartas</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =====================================================
+       MODALES
+       ===================================================== -->
+
+  <!-- Modal: Confirmar asistencia -->
+  <div id="modalAsistencia" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img src="img/iconos/img_circuloCeremonia.svg" alt="Icono ceremonia">
+          </div>
+        </div>
+
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+        </div>
+
+        <div class="modal-body">
+          <div class="formulario-content">
+            <form id="formAsistencia">
+
+              <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
+                <div class="form-check">
+                  <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="opcion-si" value="Si" checked>
+                  <label class="form-check-label custom-control-label" for="opcion-si">Si! Confirmo</label>
+                </div>
+                <div class="form-check">
+                  <input class="custom-control-input" type="radio" name="asistencia" id="opcion-no" value="No">
+                  <label class="custom-control-label" for="opcion-no">No puedo :(</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="nombreAsistente" name="nombre"
+                  placeholder="Ingrese su nombre completo">
+              </div>
+
+              <div class="form-group">
+                <textarea id="comentariosAsistente" class="form-control" name="comentarios" rows="2"
+                  placeholder="Ingrese algún dato importante, Ej: Soy vegetariano"></textarea>
+              </div>
+
+              <input id="eventoAsistencia" type="hidden" name="evento" value="">
+              <input type="hidden" name="lang"    value="es">
+              <input type="hidden" name="country" value="co">
+
+            </form>
+          </div>
+          <div class="msj-content d-flex flex-column justify-content-center"></div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" id="sendAsistencia" class="boton">Enviar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal: Letra completa -->
+  <div id="modalLetra" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content modal-letra-content">
+
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img src="img/iconos/tips.svg" alt="Icono letra">
+          </div>
+        </div>
+
+        <div class="modal-header">
+          <h5 class="modal-title" style="width:100%;">Cristo, Sé Magnificado</h5>
+        </div>
+
+        <div class="modal-body modal-letra-body">
+          <p class="cancion-artista">TWICE MÚSICA</p>
+
+          <div class="modal-letra-texto">
+            <p>
+              Desde el principio de la creación<br>
+              Se levantan voces a un clamor<br>
+              Desde oeste a este y norte a sur<br>
+              Magnifícate, Señor<br><br>
+
+              Todo el mundo canta de su inmensidad<br>
+              Sobre el mar y el cielo brillará<br>
+              Desde lo alto y bajo se oirá<br>
+              Magnifícate, Señor<br><br>
+
+              Oh, sé magnificado<br>
+              Tu nombre alabado<br>
+              Sé magnificado en mí<br>
+              Oh, sé magnificado<br>
+              En mi vida exaltado<br>
+              Sé magnificado en mí<br><br>
+
+              Una melodía de la intimidad<br>
+              Cada corazón levantará<br>
+              Himnos de alabanza se oirán<br>
+              Magnifícate, Señor<br><br>
+
+              Oh, sé magnificado<br>
+              Tu nombre alabado<br>
+              Sé magnificado en mí<br><br>
+
+              Oh, sé magnificado<br>
+              En mi vida exaltado<br>
+              Sé magnificado en mí
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal: Vestuario / Dress Code -->
+  <div id="modalVestuario" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="white-circle-icon">
+            <img src="img/iconos/vestuario.svg" alt="Icono vestuario">
+          </div>
+        </div>
+
+        <div class="modal-header">
+          <h5 class="modal-title">Semi-formal</h5>
+        </div>
+
+        <div class="modal-body">
+
+          <div class="dresscode-card">
+            <img src="img/dresscode-1.png" alt="Dress Code">
+          </div>
+
+          <div class="dresscode-aviso">
+            <p>
+              👠 <strong>Recomendación:</strong> Si vas a usar tacones, que sean de base ancha o plataforma para mayor comodidad,
+              ya que el evento es al aire libre y el terreno es de césped.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="modal-footer"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal: Mapa / Cómo llegar -->
+  <div id="modalMapa" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+        </div>
+
+        <div class="modal-body">
+          <div id="mapLoader" class="map-loader">
+            <div class="map-spinner"></div>
+          </div>
+          <iframe id="googleMapIframe" width="100%" height="450" style="border:0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="modal-footer">
+          <a class="boton ampliar-mapa" target="_blank" href="#">Ir a Google Maps</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       SCRIPTS — orden de carga
+       ===================================================== -->
+
+  <!-- 1. Lottie (sin jQuery) -->
+  <script src="js/lottie_svg.min.js"></script>
+
+  <!-- 2. Traducciones / idioma (sin jQuery) -->
+  <script src="js/es-CO.js"></script>
+
+  <!-- 3. Configuración del proyecto (sin jQuery) -->
+  <script src="js/config.js"></script>
+
+  <!-- 4. jQuery y plugins -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/noframework.waypoints.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <!-- 5. Lógica principal del proyecto -->
+  <script src="js/scripts.js"></script>
+
+  <!-- 6. AddEvent (asíncrono, carga al final) -->
+  <script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+</body>
+
+</html>
