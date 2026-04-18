@@ -106,8 +106,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.card::before,
-.card::after {
+.card::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -117,7 +116,7 @@ body {
   background: linear-gradient(90deg, transparent, rgba(168, 148, 106, 0.5) 20%, rgba(168, 148, 106, 0.5) 80%, transparent);
 }
 .card::before { top: 14px; }
-.card::after  { bottom: 14px; }
+
 
 /* ---------- Encabezado ---------- */
 .card__header {
